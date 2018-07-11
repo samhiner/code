@@ -14,7 +14,8 @@
 * **Stock Research Evaluation**
 	* **Quiz**: You are given information on a stock and submit whether you are bearish or bullish on the stock. You are awarded points if this matches analyst's opinions. 
 	* **Removal**: If the quiz was not able to find information on a stock, this will remove it from the stock list for the quiz.
-	* **Cleaner**: Jupyter Notebook which turns the raw HTML from which the stock list for the quiz was extracted into a clean list. 
+	* **Cleaner**: Jupyter Notebook which turns the raw HTML from which the stock list for the quiz was extracted into a clean list.
+* **Daily Coding Problems** My solutions to problems from [Daily Coding Problem](https://www.dailycodingproblem.com).
 
 ## Web Development (PHP + HTML/CSS)
 * **Chatroom** Very basic chatroom which manages accounts with MYSQL and writes to a file for messages. Good as a template for writing a quick means of communication. Requires you to write database info in login.php, register.php, and verify.php to work.
