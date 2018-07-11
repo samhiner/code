@@ -16,6 +16,8 @@
 	* **Removal**: If the quiz was not able to find information on a stock, this will remove it from the stock list for the quiz.
 	* **Cleaner**: Jupyter Notebook which turns the raw HTML from which the stock list for the quiz was extracted into a clean list.
 * **Daily Coding Problems** My solutions to problems from [Daily Coding Problem](https://www.dailycodingproblem.com).
+* **References** Basic implementations of data structures, algorithms, and other useful things I may need to refer to later.
+	* **Linked List** Basic implementation of a one way linked list. Includes appending, prepending, displaying as an array, inserting, and removing.
 
 ## Web Development (PHP + HTML/CSS)
 * **Chatroom** Very basic chatroom which manages accounts with MYSQL and writes to a file for messages. Good as a template for writing a quick means of communication. Requires you to write database info in login.php, register.php, and verify.php to work.
