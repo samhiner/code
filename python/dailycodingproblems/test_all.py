@@ -1,6 +1,7 @@
 import unittest
 import problem1
 import problem2
+import problem3
 import problem4
 
 class TestProbs(unittest.TestCase):
@@ -18,6 +19,12 @@ class TestProbs(unittest.TestCase):
 		self.assertEqual(problem2.multArray([1, 2, 3, 4, 5]), [120, 60, 40, 30, 24])
 		self.assertEqual(problem2.multArray([3, 2, 1]), [2, 3, 6])
 
+	def test_problem3(self):
+		binaryTree = problem3.Node('root', problem3.Node('left', problem3.Node('left.left')), problem3.Node('right'))
+		self.assertEqual(problem3.deserialize(problem3.serialize(binaryTree)).left.left.val,'left.left')
+		self.assertEqual(problem3.deserialize(problem3.serialize(binaryTree)).left.val,'left')
+		self.assertEqual(problem3.deserialize(problem3.serialize(binaryTree)).right.val,'right')
+
 	def test_problem4(self):
 		self.assertEqual(problem4.lowestAbsentInt([3, 4, -1, 1]), 2)
 		self.assertEqual(problem4.lowestAbsentInt([1, 2, 0]), 3)
@@ -25,8 +32,8 @@ class TestProbs(unittest.TestCase):
 '''
 Template Unit Test:
 
-def test_(self):
-	self.assertEqual(problemX.function(input),output)
+	def test_(self):
+		self.assertEqual(problemX.function(input),output)
 '''
 
 if __name__ == '__main__':
