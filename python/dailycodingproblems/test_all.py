@@ -3,6 +3,7 @@ import problem1
 import problem2
 import problem3
 import problem4
+import problem5
 
 class TestProbs(unittest.TestCase):
 
@@ -28,6 +29,10 @@ class TestProbs(unittest.TestCase):
 	def test_problem4(self):
 		self.assertEqual(problem4.lowestAbsentInt([3, 4, -1, 1]), 2)
 		self.assertEqual(problem4.lowestAbsentInt([1, 2, 0]), 3)
+
+	def test_problem5(self):
+		self.assertEqual(problem5.car(problem5.cons(3, 4)),3)
+		self.assertEqual(problem5.cdr(problem5.cons(3, 4)),4)
 
 '''
 Template Unit Test:
