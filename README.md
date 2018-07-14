@@ -2,6 +2,11 @@
 
 ## Javascript
 * **Strategy Game*** A simple game where you manage a country in a top-down map style. (Mix between CivClicker and Sid Meier's Civ)
+* **Kinematics Calculator*** See how graphs of position, velocity, and acceleration against time are related to each other by seeing how modifying one changes the values of the other graphs. Currently has **no** functionality.
+
+## PHP
+* **Chatroom** Very basic chatroom which manages accounts with MYSQL and writes to a file for messages. Good as a template for writing a quick means of communication. Requires you to write database info in login.php, register.php, and verify.php to work.
+* **HTML Builder*** Writes HTML for people who do not know the language. Currently only includes formatted text and images, hence the asterisk. It usually makes more sense to just learn HTML, but when you are in a rush and need support for someone to write basic html this will do. You run builder.php and it writes to code.php.
 
 ## Python
 <<<<<<< HEAD
@@ -19,12 +24,15 @@
 * **References** Basic implementations of data structures, algorithms, and other useful things I may need to refer to later.
 	* **Linked List** Basic implementation of a one way linked list. Includes appending, prepending, displaying as an array, inserting, and removing.
 
+<<<<<<< HEAD
 ## Web Development (PHP + HTML/CSS)
 * **Chatroom** Very basic chatroom which manages accounts with MYSQL and writes to a file for messages. Good as a template for writing a quick means of communication. Requires you to write database info in login.php, register.php, and verify.php to work.
 * **HTML Builder*** Writes HTML for people who do not know the language. Currently only includes formatted text and images, hence the asterisk. It usually makes more sense to just learn HTML, but when you are in a rush and need support for someone to write basic html this will do. You run builder.php and it writes to code.php.
 * **Online Console** Styles embedded repl.it file so that the source is not visible and it just looks like a console. All you have to do is upload your code to repl.it and replace the iframe with your embedded code. Used as template for showing python projects at samhiner.com.
 >>>>>>> d006e18... Add Online Console
 
+=======
+>>>>>>> 978bac5... webdev->php and move console to gist
 # Extra Information
 
 **License** Everything is under the MIT License, meaning if anyone sees this they are able to use the code in any way they like.
