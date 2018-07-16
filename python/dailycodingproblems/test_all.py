@@ -4,6 +4,7 @@ import problem2
 import problem3
 import problem4
 import problem5
+import problem7
 
 class TestProbs(unittest.TestCase):
 
@@ -33,6 +34,10 @@ class TestProbs(unittest.TestCase):
 	def test_problem5(self):
 		self.assertEqual(problem5.car(problem5.cons(3, 4)),3)
 		self.assertEqual(problem5.cdr(problem5.cons(3, 4)),4)
+
+	def test_problem7(self):
+		self.assertEqual(problem7.decodeWays('111'),3)
+		self.assertEqual(problem7.decodeWays('001'),0)
 
 '''
 Template Unit Test:
