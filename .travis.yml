@@ -1,0 +1,15 @@
+sudo: false
+
+language: python
+
+python:
+  - stable
+
+install:
+  - pip install codecov
+
+script:
+  - coverage run python/dailycodingproblems/test_all.py
+
+after_success:
+  - codecov
