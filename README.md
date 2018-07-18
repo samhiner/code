@@ -25,6 +25,7 @@
 	* **Linked List** Basic implementation of a one way linked list. Includes appending, prepending, displaying as an array, inserting, and removing.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Web Development (PHP + HTML/CSS)
 * **Chatroom** Very basic chatroom which manages accounts with MYSQL and writes to a file for messages. Good as a template for writing a quick means of communication. Requires you to write database info in login.php, register.php, and verify.php to work.
 * **HTML Builder*** Writes HTML for people who do not know the language. Currently only includes formatted text and images, hence the asterisk. It usually makes more sense to just learn HTML, but when you are in a rush and need support for someone to write basic html this will do. You run builder.php and it writes to code.php.
@@ -33,6 +34,11 @@
 
 =======
 >>>>>>> 978bac5... webdev->php and move console to gist
+=======
+## Shell Scripts
+* **Website Update** Template for a script that automatically updates a website to match its GitHub repository. The PHP file triggers the script and contains guidance on setting it up so it is only triggered by a Webhook.
+
+>>>>>>> 24d1238... Add Website Update Script
 # Extra Information
 
 **License** Everything is under the MIT License, meaning if anyone sees this they are able to use the code in any way they like.
