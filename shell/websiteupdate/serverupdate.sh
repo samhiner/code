@@ -9,7 +9,7 @@ cd /PATH/OUTSIDE/OF/WEBSITE
 
 #delete everything in the website folder (otherwise git clone won't work)
 #even if git clone did work in non-empty files, then you would just have two of every file
-rm -r /WEBSITE/FOLDER/*
+rm -rf /WEBSITE/FOLDER/*
 
 #clone your github repo into the website folder and delete the .git folder as it is unecessary and can causes permissions issues
 git clone https://github.com/smhnr27/portfoliowebsite.git /WEBSITE/FOLDER && rm -rf /WEBSITE/FOLDER/.git
