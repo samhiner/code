@@ -5,6 +5,7 @@ import problem3
 import problem4
 import problem5
 import problem7
+import problem11
 
 class TestProbs(unittest.TestCase):
 
@@ -38,6 +39,11 @@ class TestProbs(unittest.TestCase):
 	def test_problem7(self):
 		self.assertEqual(problem7.decodeWays('111'),3)
 		self.assertEqual(problem7.decodeWays('001'),0)
+
+	def test_problem11(self):
+		self.assertEqual(problem11.autocomplete('de',['dog','deer','deal']),['deer','deal'])
+		self.assertEqual(problem11.autocomplete('deo',['dog','deer','deal']),[])
+
 
 '''
 Template Unit Test:
