@@ -14,7 +14,9 @@ def decodeWays(msg, numPaths = 0):
 			numPaths = decodeWays(msg[1:],numPaths)
 
 	if len(msg) > 1:
-		if 26 >= int(msg[0:2]) >= 1:
+		if 26 >= int(msg[:2]) >= 1:
 			numPaths = decodeWays(msg[2:],numPaths)
 
 	return numPaths
+
+#ISSUE: wrong for cases that shouldn't work like 602
