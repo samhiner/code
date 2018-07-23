@@ -22,6 +22,7 @@
 	* **Cleaner**: Jupyter Notebook which turns the raw HTML from which the stock list for the quiz was extracted into a clean list.
 * **Daily Coding Problems** My solutions to problems from [Daily Coding Problem](https://www.dailycodingproblem.com).
 * **References** Basic implementations of data structures, algorithms, and other useful things I may need to refer to later.
+* **Ciphers** A few random ciphers. Caesar and Vigenere ciphers implemented.
 	* **Linked List** Basic implementation of a one way linked list. Includes appending, prepending, displaying as an array, inserting, and removing.
 
 <<<<<<< HEAD
