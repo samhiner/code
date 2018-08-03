@@ -2,10 +2,15 @@
 
 ## Javascript
 * **Strategy Game*** A simple game where you manage a country in a top-down map style. (Mix between CivClicker and Sid Meier's Civ)
+<<<<<<< HEAD
 * **Kinematics Calculator*** See how graphs of position, velocity, and acceleration against time are related to each other by seeing how modifying one changes the values of the other graphs. Currently has **no** functionality.
+=======
+* **Kinematics Calculator*** See how graphs of position, velocity, and acceleration against time are related to each other by seeing how modifying one changes the values of the other graphs.
+* **Alien Game*** Simple platformer game made with Phaser 3 where you run from UFO to UFO fighting aliens.
+>>>>>>> 2d583f1... Add new projects to README
 
 ## PHP
-* **Chatroom** Very basic chatroom which manages accounts with MYSQL and writes to a file for messages. Good as a template for writing a quick means of communication. Requires you to write database info in login.php, register.php, and verify.php to work.
+* **Chatroom** Basic chatroom which manages accounts with MYSQL and writes to a file for messages. Requires you to write your MySQL database info in login.php, register.php, and verify.php before you run it.
 * **HTML Builder*** Writes HTML for people who do not know the language. Currently only includes formatted text and images, hence the asterisk. It usually makes more sense to just learn HTML, but when you are in a rush and need support for someone to write basic html this will do. You run builder.php and it writes to code.php.
 
 ## Python
@@ -38,10 +43,11 @@
 =======
 ## Shell Scripts
 * **Website Update** Template for a script that automatically updates a website to match its GitHub repository. The PHP file triggers the script and contains guidance on setting it up so it is only triggered by a Webhook.
+* **Repl.it Update*** Logs into your repl.it account and updates scripts based on their current version on GitHub.
 
 >>>>>>> 24d1238... Add Website Update Script
 # Extra Information
 
-**License** Everything is under the MIT License, meaning if anyone sees this they are able to use the code in any way they like.
+**License** This repository is more of a personal reference, but I put it under the MIT license, so if anyone is reading this and you find something that you like, you can use it for your own purposes.
 
 *Projects with an asterisk do not have their main intended features implemented and may not work. 
