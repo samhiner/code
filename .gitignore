@@ -1,3 +1,4 @@
 *.pyc
 README.html
 python/mnist-ml/dl.google.com
+.DS_Store
