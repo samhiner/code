@@ -1,6 +1,6 @@
 import math
 
-###
+# BOARD SETUP
 
 board = [
 	[[], [1], [1], [1], [1], []],
@@ -11,14 +11,31 @@ board = [
 	[[], 0, 0, 0, 0, 0]
 ]
 
-#TODO make row/column numbers decrease when pixels are placed.
-#actually above change will require a whole set up to.
-#wait is that in usual picross? investigating now
+'''
+#put a pixel or an x on the board
+	#c_type: 1 for pixel, -1 for x
+	#x, y: coordinates of change
+def change(c_type, x, y):
+	board[x][y] = c_type
 
-###
+	#update counts
+	if c_type == 1:
+		groups = [0]
+		for space in range(1, len(board[x])):
+			if board[space] = 1
+				groups[-1] += 1
+			else:
+				groups.append(0)
+		for x in groups:
+			if x not 0:
+				final_groups.append(x)
+		if final_groups == board[x][0]:
+			pass
+			#this is where we would know that a row is done but idk if this function is necessary.
+			#I will leave this comented out in case I end up needing it later
+'''
 
-width = len(board[0]) - 1
-height = len(board) - 1
+# SOLVING ALGOS
 
 #black out spaces that must contain a pixel due to a long group
 def must_reach():
@@ -31,7 +48,10 @@ def must_reach():
 				for space in range(empty_area + 1, width - empty_area + 1):
 					row[space] = 1
 
-#where algos to figure out what is a pixel are run
+# RUN SOLVER
+
+width = len(board[0]) - 1
+height = len(board) - 1
 
 iterator = 0
 #TODO change iterator to a check if puzzle is done
