@@ -17,12 +17,22 @@ def solve_exp(exp):
 
 import math
 
-and_op = lambda x, y : x - y
-or_op = lambda x, y : x + y
+def unify(arr1, arr2):
+	for x in arr2:
+		if x not in arr1:
+			arr1.append(x)
+	return arr1
+
+def intersect(arr1, arr2):
+	final = []
+	for x in arr1:
+		if x in arr2:
+			final.append(x)
+	return final
 
 #the lambdas in operations have the same index as the symbols in operators you can get .index of symbols and find the lambda at that place
 opList = ['^','v']
-operations = [and_op, or_op]
+operations = [intersect, unify]
 
 def parse(userInput):
 	#evaluate everything in parentheses before the rest of the expression
@@ -53,7 +63,7 @@ def parse(userInput):
 				#get the correct lambda based on the symbol which was used
 				currOperation = operations[opList.index(formatted[x])]
 				#do the operation on the numbers that it is between and add that to the new, more calculated list of numbers.
-				newArr.append(currOperation(float(newArr[-1]), float(formatted[x + 1])))
+				newArr.append(currOperation(newArr[-1], formatted[x + 1]))
 				newArr.pop(-2)
 				didOperation = True
 				continue
@@ -75,7 +85,7 @@ def strToList(string):
 				print(formatted)
 				raise SyntaxError('An operator did not have two numbers to compare')
 
-			formatted.extend([currNum,x])
+			formatted.extend([list(sets[currNum]),x])
 			currNum = ''
 		else:
 			currNum += x
@@ -85,7 +95,7 @@ def strToList(string):
 	if currNum == '':
 		raise SyntaxError('An operator did not have two numbers to compare')
 
-	formatted.append(currNum)
+	formatted.append(list(sets[currNum]))
 
 	return formatted
 
@@ -112,8 +122,8 @@ def order(exp):
 
 #boolean variable setting
 sets = {
-#	'a': [1, 2, 3, 4, 5],
-#	'b': [4, 5, 6, 7, 8]
+	'a': (1, 2, 3, 4, 5),
+	'b': (4, 5, 6, 7, 8)
 }
 
 while True:
@@ -127,3 +137,5 @@ while True:
 	print(parse(input('Expression: ')))
 	if input('Again? Y/N ') in ['N', 'n']:
 		break
+
+#TODO create a set of every unit so you can do inverses
