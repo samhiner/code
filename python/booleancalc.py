@@ -17,12 +17,14 @@ def solve_exp(exp):
 
 import math
 
+#get unification of two "sets"
 def unify(arr1, arr2):
 	for x in arr2:
 		if x not in arr1:
 			arr1.append(x)
 	return arr1
 
+#get intersection of two "sets"
 def intersect(arr1, arr2):
 	final = []
 	for x in arr1:
@@ -30,9 +32,19 @@ def intersect(arr1, arr2):
 			final.append(x)
 	return final
 
+#get the complement of a set
+	#arr1 should always be 1, or the universe
+	#TODO improve this so the universe doesn't have to be passed
+def complement(arr1, arr2):
+	final = []
+	for x in arr1:
+		if x not in arr2:
+			final.append(x)
+	return final
+
 #the lambdas in operations have the same index as the symbols in operators you can get .index of symbols and find the lambda at that place
-opList = ['^','v']
-operations = [intersect, unify]
+opList = ['^','v','-']
+operations = [intersect, unify, complement]
 
 def parse(userInput):
 	#evaluate everything in parentheses before the rest of the expression
@@ -127,15 +139,20 @@ sets = {
 }
 
 while True:
-	if input('Add a set? Y/N ') not in ['N', 'n']:
+	if input('Add a set? Y/N ') in ['Y', 'y']:
 		new_set = input('Set: ').split(':')
 		sets[new_set[0]] = new_set[1].split(',')
 	else:
 		break
 
+sets['1'] = []
+
+for x in sets:
+	for y in sets[x]:
+		if y not in sets['1']:
+			sets['1'].append(y)
+
 while True:
 	print(parse(input('Expression: ')))
-	if input('Again? Y/N ') in ['N', 'n']:
-		break
 
 #TODO create a set of every unit so you can do inverses
