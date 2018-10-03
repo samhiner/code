@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<div id='board'>
+		__________
+		__________
+		__________
+		__________
+		__________
+		__________
+		__________
+		__________
+		__________
+		__________
+	</div>
+
+	<script>
+		function sleep(milliseconds) {
+			var start = new Date().getTime();
+			for (var i = 0; i < 1e7; i++) {
+				if ((new Date().getTime() - start) > milliseconds){
+					break;
+				}
+			}
+		}
+
+		class Node {
+			constructor(loc) {
+				this.loc = loc;
+			}
+		}
+
+		var board = [[0,0,0,0,0],
+					[0,0,0,0,0],
+					[0,0,0,0,0],
+					[0,0,0,0,0],
+					[0,0,0,0,0]];
+		
+		var head = new Node([Math.round(Math.random * 5), Math.round(Math.random * 5)]);
+		board[head.loc[0], head.loc[1]] = 1;
+
+		while (true) {
+			////TODO change this to [1] if down is pressed or whatever
+			head.loc[0] = head.loc[0] + 1;
+			////
+
+			board[head.loc[0], head.loc[1]] = 1;
+
+			var grow = false;
+
+			//if it isn't supposed to grow delete the snake's last node to give the illusion of movement
+			var curr = head;
+
+			while (curr.next) {
+				curr.next.location = curr.location;
+				// TODO fix stuff around here so its a linked list with data being location of every node which is updated on every frame
+				curr = curr.next;
+			}
+
+			if (grow) {
+				curr.next = new Node([curr.location])
+			} else {
+				board[curr.loc[0]][curr.loc[1]] = 0					
+			}
+
+
+			console.log(board)
+			sleep(2000)
+
+		}
+
+	</script>
+</body>
+</html>
