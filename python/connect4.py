@@ -4,6 +4,8 @@
 #TODO maybe add input control
 #TODO input('connect') that way you say if its connect 4, 5, 1, etc. also board size
 
+import random
+
 CONNECT = 4
 
 #prints out the board so the user can see it
@@ -17,39 +19,39 @@ def display_board():
 	print(final)
 
 #recusive function put the choice at a position where you find the first vertical spot not taken and put the chip there
-def place_chip(choice, curr):
+def place_chip(choice, chip, curr = -1):
 	#if the whole column is filled then notify the turn function
 	#TODO make -8 depend on board size
 	if curr == -8:
 		return 'filled'
 
-	if board[choice][curr] == 1:
-		return place_chip(choice, curr - 1)
+	if board[choice][curr] != 0:
+		return place_chip(choice, chip, curr - 1)
 	else:
-		board[choice][curr] = 1
+		board[choice][curr] = chip
 
 #look through the board to see if anyone has "amt" chips in a row
-def check_win(amt):
+def check_win(chip, amt = CONNECT):
 	vert_connect = 0
 	horizon_connect = 0
 
 	#vertical and horizontal checks
 	for x in range(len(board)):
 		for y in range(len(board[0])):
-			if board[x][y] == 1:
+			if board[x][y] == chip:
 				horizon_connect += 1
 			else:
 				horizon_connect = 0
 
-			if board[y][x] == 1:
+			if board[y][x] == chip:
 				vert_connect += 1
 			else:
 				vert_connect = 0
 
 			if vert_connect >= amt or horizon_connect >= amt:
-				return 'win'
+				return True
 
-	#TODO could save on resource by not checking diags that are smaller than amt
+	#TODO could save on resource by not checking diags that are smaller than "amt"
 	#top-right -> bottom-left diagonal check
 	directions = [1, -1]
 	index_adjs = [0, -1]
@@ -67,7 +69,7 @@ def check_win(amt):
 				for y in range(2):
 					try:
 						#direction[a] will change it from 1 to -1 so you can check top right to bottom left instead of other way and index_adj is necessary bc 0 is first but -1 is last, not -0
-						if board[directions[a] * (x + shift_types[y]) + index_adjs[a]][x] == 1:
+						if board[directions[a] * (x + shift_types[y]) + index_adjs[a]][x] == chip:
 							diag_connects[y] += 1
 						else:
 							diag_connects[y] = 0
@@ -75,27 +77,29 @@ def check_win(amt):
 						pass
 
 				if amt in diag_connects:
-					return 'win'
+					return True
 
 
 #recursive function to switch players from turn to turn until someone wins
+#TODO change from 1-7 to 1-BOARDSIZE
 def turn(curr):
 	if curr/2 == int(curr/2):
-		pass
-		#TODO add computer strats here
-		#NOTE when your doing that remember both people need their own chip color (they can't both be 1)
+		while place_chip(random.randint(1, 7), 'B') == 'filled':
+			continue
+
+		player_info = ['B','loss']
 	else:
 		pick = int(input('1-7: ')) - 1
-		if place_chip(pick, -1) == 'filled':
+		if place_chip(pick, 'A') == 'filled':
 			print('Choose a column that is not filled up')
 			return turn(curr)
 
+		player_info = ['A','win']
+
 	display_board()
 
-	end = check_win(CONNECT)
-
-	if end == 'win' or end == 'loss':
-		return end
+	if check_win(player_info[0]):
+		return player_info[1]
 
 	return turn(curr + 1)
 
