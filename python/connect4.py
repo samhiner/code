@@ -3,6 +3,7 @@
 #TODO add an opponent
 #TODO maybe add input control
 #TODO input('connect') that way you say if its connect 4, 5, 1, etc. also board size
+#HEY HEY HEY HEY GO TO LINE 80
 
 import random
 
@@ -30,8 +31,23 @@ def place_chip(choice, chip, curr = -1):
 	else:
 		board[choice][curr] = chip
 
+def can_place(column, row):
+	try:
+		if board[column][row] == 0:
+			if row == len(board[0]) - 1:
+				return True
+			else:
+				if board[column][row - 1] != 0:
+					return True
+	except IndexError:
+		return False
+
+	return False
+
+
+#TODO split this up into a lot of other functions
 #look through the board to see if anyone has "amt" chips in a row
-def check_win(chip, amt = CONNECT):
+def check_line(chip, amt = CONNECT, find_win = False):
 	vert_connect = 0
 	horizon_connect = 0
 
@@ -48,8 +64,24 @@ def check_win(chip, amt = CONNECT):
 			else:
 				vert_connect = 0
 
-			if vert_connect >= amt or horizon_connect >= amt:
-				return True
+			if horizon_connect >= amt:
+				if find_win:
+					if can_place(x + 1, y):
+						return [x - amt, y]
+					elif can_place(x - amt, y):
+						return [x - amt, y]
+				else:
+					return 'win'
+
+			#TODO fix this duplicated code
+			if vert_connect >= amt:
+				if find_win:
+					if can_place(y, x + 1):
+						return [y, x + 1] #####TODO: make it so that is only checks for spaces above the line as you can't go under it and also make it actually work instead of putting check at [0] or [-1]
+					elif can_place(y, x - amt):
+						return [y, x - amt]
+				else:
+					return 'win'
 
 	#TODO could save on resource by not checking diags that are smaller than "amt"
 	#top-right -> bottom-left diagonal check
@@ -77,15 +109,38 @@ def check_win(chip, amt = CONNECT):
 						pass
 
 				if amt in diag_connects:
-					return True
+					if find_win:
+						pass
+						#TODO add robot stuff here
+					else:
+						return 'win'
+
+	return False
+
+
+def find_move(chip, size = 1):
+	if size == CONNECT:
+		return False
+
+	place_coords = check_line(chip, CONNECT - size, True)
+	if place_coords != False:
+		#place_chip isn't checked to make sure it was placed bc it was already checked by the check_line function
+		place_chip(place_coords[0], 'B')
+		return True
+	else:
+		return find_move(chip, size + 1)
 
 
 #recursive function to switch players from turn to turn until someone wins
 #TODO change from 1-7 to 1-BOARDSIZE
 def turn(curr):
 	if curr/2 == int(curr/2):
-		while place_chip(random.randint(1, 7), 'B') == 'filled':
-			continue
+
+		#TODO choose random order of defensive and offensive
+		if find_move('B') == False:
+			if find_move('A') == False:
+				while place_chip(random.randint(1, 7), 'B') == 'filled':
+					continue
 
 		player_info = ['B','loss']
 	else:
@@ -98,7 +153,7 @@ def turn(curr):
 
 	display_board()
 
-	if check_win(player_info[0]):
+	if check_line(player_info[0]) == 'win':
 		return player_info[1]
 
 	return turn(curr + 1)
@@ -110,7 +165,7 @@ def turn(curr):
 board = [[0,0,0,0,0,0,0],
 		[0,0,0,0,0,0,0],
 		[0,0,0,0,0,0,0],
-		[0,0,0,0,0,0,0],
+		[0,0,0,0,0,'A','A'],
 		[0,0,0,0,0,0,0],
 		[0,0,0,0,0,0,0],
 		[0,0,0,0,0,0,0]]
