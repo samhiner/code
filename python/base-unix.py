@@ -5,7 +5,7 @@ digit = chr(int(time.time() / 86400))
 print('The base-86400 representation of the current UNIX time is %s' % digit)
 
 print('''
-The person-number assignment is as follows where the door is at the top right:
+The person-number assignment is as follows where the door is at the top left:
 
  1 | 2 
 -------
