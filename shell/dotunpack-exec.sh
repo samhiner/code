@@ -1,22 +1,22 @@
 #!/bin/bash
-config=$(cat $1)
+#open file and remove carriage returns
+config=$(cat $1 | tr -d '\r')
 
 curr=NONE
 files=()
-declare -a repl_words #TODO the "a" will have to be capital for non-bash shell
+declare -A repl_words #declare a dictionary
 IFS=$'\n'
-for line in $config
+#reads everything under FILES heading into a list of files
+#reads everything under VARS heading into dict with key being old word and value being new word
+for line in $config #loops through each line in config using "\n" (IFS) as delimiter
 do
-	echo $curr
-	echo $line + 'd'
-
-	if [ "$line" == FILES ]
+	if [ "$line" = "FILES" ]
 	then
 		curr=FILES
 		continue
 	fi
 
-	if [ "$line" == VARS ]
+	if [ "$line" = "VARS" ]
 	then
 		curr=VARS
 		continue
@@ -27,22 +27,17 @@ do
 		files+=("$line")
 	elif [ $curr == VARS ]
 	then
-		IFS="=" read old_word new_word <<< $line #TODO separate into many lines
-		echo "test"
-		echo $old_word
-		echo $new_word
-		repl_words[$old_word]=$new_word #TODO make this support slashes
+		IFS="="
+		read old_word new_word <<< $line
+		repl_words["$old_word"]=$new_word
 	fi
-
-
 done
-: '
-for i in "${!repl_words[@]}"
+
+for file in $files
 do
-  echo "key  : $i"
-  echo "value: ${repl_words[$i]}"
-done'
-
-echo "${repl_words[localhost]}"
-
-echo $files
+	for key in "${!repl_words[@]}"
+	do
+		curr_val=${repl_words["$key"]}
+		sed -i 's='"$key"'='"$curr_val"'=g' $file
+	done
+done
