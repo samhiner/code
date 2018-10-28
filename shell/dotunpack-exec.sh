@@ -10,11 +10,21 @@ do
 	echo $curr
 	echo $line + 'd'
 
+	if [ "$line" == FILES ]
+	then
+		curr=FILES
+		continue
+	fi
+
+	if [ "$line" == VARS ]
+	then
+		curr=VARS
+		continue
+	fi
 
 	if [ $curr == FILES ]
 	then
 		files+=("$line")
-		continue
 	elif [ $curr == VARS ]
 	then
 		IFS="=" read old_word new_word <<< $line #TODO separate into many lines
@@ -22,16 +32,9 @@ do
 		echo $old_word
 		echo $new_word
 		repl_words[$old_word]=$new_word #TODO make this support slashes
-		continue
 	fi
 
-	if [ "$line" == FILES ]
-	then
-		curr=FILES
-	elif [ "$line" == VARS ]
-	then
-		curr=VARS
-	fi
+
 done
 : '
 for i in "${!repl_words[@]}"
