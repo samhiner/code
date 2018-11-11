@@ -12,7 +12,7 @@ then
 			git clone https://github.com/samhiner/$p.git /var/www/temp/$p
 		fi
 
-	done < /var/www/shellscripts/webhooklist.txt
+	done < /var/www/other/webhooklist.txt
 
 	#delete the html folder (contains the entire website)
 	rm -rf /var/www/html
@@ -21,7 +21,7 @@ then
 
 	while read p; do
 		mv /var/www/temp/$p /var/www/html/projects
-	done < /var/www/shellscripts/webhooklist.txt
+	done < /var/www/other/webhooklist.txt
 else
 	if [ -d /var/www/html/projects/$1 ]
 	then
