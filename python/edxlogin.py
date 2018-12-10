@@ -1,11 +1,14 @@
 import requests
 
 '''
-this can be used to get content in a logged in acct in edX. 
+this can be used to get content in a logged in acct in edX.
+
 I was going to use this to check if a submitted answer on 
 an archived course is right before giving the answer, but
-I found a WAY shorter way to do that with JS. Will link to
-it here when I put it up.
+I found a way better way to do that with JS and Google Apps
+Script. Here is the link: 
+
+https://github.com/samhiner/edxarchivetool
 '''
 
 USERNAME = ''
