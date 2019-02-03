@@ -1,4 +1,4 @@
-senator_list = '''<option value="392">Sen. J. Alexander</option>
+<option value="392">Sen. J. Alexander</option>
 <option value="416">Sen. T. Alexander</option>
 <option value="396">Sen. Ballard</option>
 <option value="64">Sen. Berger</option>
@@ -48,11 +48,4 @@ senator_list = '''<option value="392">Sen. J. Alexander</option>
 <option value="385">Sen. Van Duyn</option>
 <option value="393">Sen. Waddell</option>
 <option value="388">Sen. Wells</option>
-<option value="379">Sen. Woodard</option>'''.split('\n')
-
-for senator in senator_list:
-	#get ID of senator to be used to find vote records
-	senator_id = senator[15:18]
-	if senator_id[-1] == '"':
-		senator_id = senator_id[:-1]
-	goto('https://www.ncleg.gov/Legislation/Votes/MemberVoteHistory/2019/S/')
+<option value="379">Sen. Woodard</option>
