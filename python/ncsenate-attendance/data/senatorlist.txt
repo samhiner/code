@@ -34,7 +34,6 @@
 <option value="417">Sen. Mohammed</option>
 <option value="402">Sen. Newton</option>
 <option value="409">Sen. Nickel</option>
-<option value="273">Sen. Pate</option>
 <option value="419">Sen. Perry</option>
 <option value="413">Sen. Peterson</option>
 <option value="303">Sen. Rabon</option>
