@@ -1,0 +1,267 @@
+          <option value="../geos/af.html" data-place-code="af"> Afghanistan
+          <option value="../geos/ax.html" data-place-code="ax"> Akrotiri
+          <option value="../geos/al.html" data-place-code="al"> Albania
+          <option value="../geos/ag.html" data-place-code="ag"> Algeria
+          <option value="../geos/aq.html" data-place-code="aq"> American Samoa
+          <option value="../geos/an.html" data-place-code="an"> Andorra
+          <option value="../geos/ao.html" data-place-code="ao"> Angola
+          <option value="../geos/av.html" data-place-code="av"> Anguilla
+          <option value="../geos/ay.html" data-place-code="ay"> Antarctica
+          <option value="../geos/ac.html" data-place-code="ac"> Antigua and Barbuda
+          <option value="../geos/xq.html" data-place-code="xq"> Arctic Ocean
+          <option value="../geos/ar.html" data-place-code="ar"> Argentina
+          <option value="../geos/am.html" data-place-code="am"> Armenia
+          <option value="../geos/aa.html" data-place-code="aa"> Aruba
+          <option value="../geos/at.html" data-place-code="at"> Ashmore and Cartier Islands
+          <option value="../geos/zh.html" data-place-code="zh"> Atlantic Ocean
+          <option value="../geos/as.html" data-place-code="as"> Australia
+          <option value="../geos/au.html" data-place-code="au"> Austria
+          <option value="../geos/aj.html" data-place-code="aj"> Azerbaijan
+          <option value="../geos/bf.html" data-place-code="bf"> Bahamas, The
+          <option value="../geos/ba.html" data-place-code="ba"> Bahrain
+          <option value="../geos/um.html" data-place-code="um"> Baker Island
+          <option value="../geos/bg.html" data-place-code="bg"> Bangladesh
+          <option value="../geos/bb.html" data-place-code="bb"> Barbados
+          <option value="../geos/bo.html" data-place-code="bo"> Belarus
+          <option value="../geos/be.html" data-place-code="be"> Belgium
+          <option value="../geos/bh.html" data-place-code="bh"> Belize
+          <option value="../geos/bn.html" data-place-code="bn"> Benin
+          <option value="../geos/bd.html" data-place-code="bd"> Bermuda
+          <option value="../geos/bt.html" data-place-code="bt"> Bhutan
+          <option value="../geos/bl.html" data-place-code="bl"> Bolivia
+          <option value="../geos/bk.html" data-place-code="bk"> Bosnia and Herzegovina
+          <option value="../geos/bc.html" data-place-code="bc"> Botswana
+          <option value="../geos/bv.html" data-place-code="bv"> Bouvet Island
+          <option value="../geos/br.html" data-place-code="br"> Brazil
+          <option value="../geos/io.html" data-place-code="io"> British Indian Ocean Territory
+          <option value="../geos/vi.html" data-place-code="vi"> British Virgin Islands
+          <option value="../geos/bx.html" data-place-code="bx"> Brunei
+          <option value="../geos/bu.html" data-place-code="bu"> Bulgaria
+          <option value="../geos/uv.html" data-place-code="uv"> Burkina Faso
+          <option value="../geos/bm.html" data-place-code="bm"> Burma
+          <option value="../geos/by.html" data-place-code="by"> Burundi
+          <option value="../geos/cv.html" data-place-code="cv"> Cabo Verde
+          <option value="../geos/cb.html" data-place-code="cb"> Cambodia
+          <option value="../geos/cm.html" data-place-code="cm"> Cameroon
+          <option value="../geos/ca.html" data-place-code="ca"> Canada
+          <option value="../geos/cj.html" data-place-code="cj"> Cayman Islands
+          <option value="../geos/ct.html" data-place-code="ct"> Central African Republic
+          <option value="../geos/cd.html" data-place-code="cd"> Chad
+          <option value="../geos/ci.html" data-place-code="ci"> Chile
+          <option value="../geos/ch.html" data-place-code="ch"> China
+          <option value="../geos/kt.html" data-place-code="kt"> Christmas Island
+          <option value="../geos/ip.html" data-place-code="ip"> Clipperton Island
+          <option value="../geos/ck.html" data-place-code="ck"> Cocos (Keeling) Islands
+          <option value="../geos/co.html" data-place-code="co"> Colombia
+          <option value="../geos/cn.html" data-place-code="cn"> Comoros
+          <option value="../geos/cg.html" data-place-code="cg"> Congo, Democratic Republic of the
+          <option value="../geos/cf.html" data-place-code="cf"> Congo, Republic of the
+          <option value="../geos/cw.html" data-place-code="cw"> Cook Islands
+          <option value="../geos/cr.html" data-place-code="cr"> Coral Sea Islands
+          <option value="../geos/cs.html" data-place-code="cs"> Costa Rica
+          <option value="../geos/iv.html" data-place-code="iv"> Cote d&#39;Ivoire
+          <option value="../geos/hr.html" data-place-code="hr"> Croatia
+          <option value="../geos/cu.html" data-place-code="cu"> Cuba
+          <option value="../geos/uc.html" data-place-code="uc"> Curacao
+          <option value="../geos/cy.html" data-place-code="cy"> Cyprus
+          <option value="../geos/ez.html" data-place-code="ez"> Czechia
+          <option value="../geos/da.html" data-place-code="da"> Denmark
+          <option value="../geos/dx.html" data-place-code="dx"> Dhekelia
+          <option value="../geos/dj.html" data-place-code="dj"> Djibouti
+          <option value="../geos/do.html" data-place-code="do"> Dominica
+          <option value="../geos/dr.html" data-place-code="dr"> Dominican Republic
+          <option value="../geos/ec.html" data-place-code="ec"> Ecuador
+          <option value="../geos/eg.html" data-place-code="eg"> Egypt
+          <option value="../geos/es.html" data-place-code="es"> El Salvador
+          <option value="../geos/ek.html" data-place-code="ek"> Equatorial Guinea
+          <option value="../geos/er.html" data-place-code="er"> Eritrea
+          <option value="../geos/en.html" data-place-code="en"> Estonia
+          <option value="../geos/wz.html" data-place-code="wz"> Eswatini
+          <option value="../geos/et.html" data-place-code="et"> Ethiopia
+          <option value="../geos/fk.html" data-place-code="fk"> Falkland Islands (Islas Malvinas)
+          <option value="../geos/fo.html" data-place-code="fo"> Faroe Islands
+          <option value="../geos/fj.html" data-place-code="fj"> Fiji
+          <option value="../geos/fi.html" data-place-code="fi"> Finland
+          <option value="../geos/fr.html" data-place-code="fr"> France
+          <option value="../geos/fp.html" data-place-code="fp"> French Polynesia
+          <option value="../geos/fs.html" data-place-code="fs"> French Southern and Antarctic Lands
+          <option value="../geos/gb.html" data-place-code="gb"> Gabon
+          <option value="../geos/ga.html" data-place-code="ga"> Gambia, The
+          <option value="../geos/gz.html" data-place-code="gz"> Gaza Strip
+          <option value="../geos/gg.html" data-place-code="gg"> Georgia
+          <option value="../geos/gm.html" data-place-code="gm"> Germany
+          <option value="../geos/gh.html" data-place-code="gh"> Ghana
+          <option value="../geos/gi.html" data-place-code="gi"> Gibraltar
+          <option value="../geos/gr.html" data-place-code="gr"> Greece
+          <option value="../geos/gl.html" data-place-code="gl"> Greenland
+          <option value="../geos/gj.html" data-place-code="gj"> Grenada
+          <option value="../geos/gq.html" data-place-code="gq"> Guam
+          <option value="../geos/gt.html" data-place-code="gt"> Guatemala
+          <option value="../geos/gk.html" data-place-code="gk"> Guernsey
+          <option value="../geos/gv.html" data-place-code="gv"> Guinea
+          <option value="../geos/pu.html" data-place-code="pu"> Guinea-Bissau
+          <option value="../geos/gy.html" data-place-code="gy"> Guyana
+          <option value="../geos/ha.html" data-place-code="ha"> Haiti
+          <option value="../geos/hm.html" data-place-code="hm"> Heard Island and McDonald Islands
+          <option value="../geos/vt.html" data-place-code="vt"> Holy See (Vatican City)
+          <option value="../geos/ho.html" data-place-code="ho"> Honduras
+          <option value="../geos/hk.html" data-place-code="hk"> Hong Kong
+          <option value="../geos/um.html" data-place-code="um"> Howland Island
+          <option value="../geos/hu.html" data-place-code="hu"> Hungary
+          <option value="../geos/ic.html" data-place-code="ic"> Iceland
+          <option value="../geos/in.html" data-place-code="in"> India
+          <option value="../geos/xo.html" data-place-code="xo"> Indian Ocean
+          <option value="../geos/id.html" data-place-code="id"> Indonesia
+          <option value="../geos/ir.html" data-place-code="ir"> Iran
+          <option value="../geos/iz.html" data-place-code="iz"> Iraq
+          <option value="../geos/ei.html" data-place-code="ei"> Ireland
+          <option value="../geos/im.html" data-place-code="im"> Isle of Man
+          <option value="../geos/is.html" data-place-code="is"> Israel
+          <option value="../geos/it.html" data-place-code="it"> Italy
+          <option value="../geos/jm.html" data-place-code="jm"> Jamaica
+          <option value="../geos/jn.html" data-place-code="jn"> Jan Mayen
+          <option value="../geos/ja.html" data-place-code="ja"> Japan
+          <option value="../geos/um.html" data-place-code="um"> Jarvis Island
+          <option value="../geos/je.html" data-place-code="je"> Jersey
+          <option value="../geos/um.html" data-place-code="um"> Johnston Atoll
+          <option value="../geos/jo.html" data-place-code="jo"> Jordan
+          <option value="../geos/kz.html" data-place-code="kz"> Kazakhstan
+          <option value="../geos/ke.html" data-place-code="ke"> Kenya
+          <option value="../geos/um.html" data-place-code="um"> Kingman Reef
+          <option value="../geos/kr.html" data-place-code="kr"> Kiribati
+          <option value="../geos/kn.html" data-place-code="kn"> Korea, North
+          <option value="../geos/ks.html" data-place-code="ks"> Korea, South
+          <option value="../geos/kv.html" data-place-code="kv"> Kosovo
+          <option value="../geos/ku.html" data-place-code="ku"> Kuwait
+          <option value="../geos/kg.html" data-place-code="kg"> Kyrgyzstan
+          <option value="../geos/la.html" data-place-code="la"> Laos
+          <option value="../geos/lg.html" data-place-code="lg"> Latvia
+          <option value="../geos/le.html" data-place-code="le"> Lebanon
+          <option value="../geos/lt.html" data-place-code="lt"> Lesotho
+          <option value="../geos/li.html" data-place-code="li"> Liberia
+          <option value="../geos/ly.html" data-place-code="ly"> Libya
+          <option value="../geos/ls.html" data-place-code="ls"> Liechtenstein
+          <option value="../geos/lh.html" data-place-code="lh"> Lithuania
+          <option value="../geos/lu.html" data-place-code="lu"> Luxembourg
+          <option value="../geos/mc.html" data-place-code="mc"> Macau
+          <option value="../geos/ma.html" data-place-code="ma"> Madagascar
+          <option value="../geos/mi.html" data-place-code="mi"> Malawi
+          <option value="../geos/my.html" data-place-code="my"> Malaysia
+          <option value="../geos/mv.html" data-place-code="mv"> Maldives
+          <option value="../geos/ml.html" data-place-code="ml"> Mali
+          <option value="../geos/mt.html" data-place-code="mt"> Malta
+          <option value="../geos/rm.html" data-place-code="rm"> Marshall Islands
+          <option value="../geos/mr.html" data-place-code="mr"> Mauritania
+          <option value="../geos/mp.html" data-place-code="mp"> Mauritius
+          <option value="../geos/mx.html" data-place-code="mx"> Mexico
+          <option value="../geos/fm.html" data-place-code="fm"> Micronesia, Federated States of
+          <option value="../geos/um.html" data-place-code="um"> Midway Islands
+          <option value="../geos/md.html" data-place-code="md"> Moldova
+          <option value="../geos/mn.html" data-place-code="mn"> Monaco
+          <option value="../geos/mg.html" data-place-code="mg"> Mongolia
+          <option value="../geos/mj.html" data-place-code="mj"> Montenegro
+          <option value="../geos/mh.html" data-place-code="mh"> Montserrat
+          <option value="../geos/mo.html" data-place-code="mo"> Morocco
+          <option value="../geos/mz.html" data-place-code="mz"> Mozambique
+          <option value="../geos/wa.html" data-place-code="wa"> Namibia
+          <option value="../geos/nr.html" data-place-code="nr"> Nauru
+          <option value="../geos/bq.html" data-place-code="bq"> Navassa Island
+          <option value="../geos/np.html" data-place-code="np"> Nepal
+          <option value="../geos/nl.html" data-place-code="nl"> Netherlands
+          <option value="../geos/nc.html" data-place-code="nc"> New Caledonia
+          <option value="../geos/nz.html" data-place-code="nz"> New Zealand
+          <option value="../geos/nu.html" data-place-code="nu"> Nicaragua
+          <option value="../geos/ng.html" data-place-code="ng"> Niger
+          <option value="../geos/ni.html" data-place-code="ni"> Nigeria
+          <option value="../geos/ne.html" data-place-code="ne"> Niue
+          <option value="../geos/nf.html" data-place-code="nf"> Norfolk Island
+          <option value="../geos/mk.html" data-place-code="mk"> North Macedonia
+          <option value="../geos/cq.html" data-place-code="cq"> Northern Mariana Islands
+          <option value="../geos/no.html" data-place-code="no"> Norway
+          <option value="../geos/mu.html" data-place-code="mu"> Oman
+          <option value="../geos/zn.html" data-place-code="zn"> Pacific Ocean
+          <option value="../geos/pk.html" data-place-code="pk"> Pakistan
+          <option value="../geos/ps.html" data-place-code="ps"> Palau
+          <option value="../geos/um.html" data-place-code="um"> Palmyra Atoll
+          <option value="../geos/pm.html" data-place-code="pm"> Panama
+          <option value="../geos/pp.html" data-place-code="pp"> Papua New Guinea
+          <option value="../geos/pf.html" data-place-code="pf"> Paracel Islands
+          <option value="../geos/pa.html" data-place-code="pa"> Paraguay
+          <option value="../geos/pe.html" data-place-code="pe"> Peru
+          <option value="../geos/rp.html" data-place-code="rp"> Philippines
+          <option value="../geos/pc.html" data-place-code="pc"> Pitcairn Islands
+          <option value="../geos/pl.html" data-place-code="pl"> Poland
+          <option value="../geos/po.html" data-place-code="po"> Portugal
+          <option value="../geos/rq.html" data-place-code="rq"> Puerto Rico
+          <option value="../geos/qa.html" data-place-code="qa"> Qatar
+          <option value="../geos/ro.html" data-place-code="ro"> Romania
+          <option value="../geos/rs.html" data-place-code="rs"> Russia
+          <option value="../geos/rw.html" data-place-code="rw"> Rwanda
+          <option value="../geos/tb.html" data-place-code="tb"> Saint Barthelemy
+          <option value="../geos/sh.html" data-place-code="sh"> Saint Helena, Ascension, and Tristan da Cunha
+          <option value="../geos/sc.html" data-place-code="sc"> Saint Kitts and Nevis
+          <option value="../geos/st.html" data-place-code="st"> Saint Lucia
+          <option value="../geos/rn.html" data-place-code="rn"> Saint Martin
+          <option value="../geos/sb.html" data-place-code="sb"> Saint Pierre and Miquelon
+          <option value="../geos/vc.html" data-place-code="vc"> Saint Vincent and the Grenadines
+          <option value="../geos/ws.html" data-place-code="ws"> Samoa
+          <option value="../geos/sm.html" data-place-code="sm"> San Marino
+          <option value="../geos/tp.html" data-place-code="tp"> Sao Tome and Principe
+          <option value="../geos/sa.html" data-place-code="sa"> Saudi Arabia
+          <option value="../geos/sg.html" data-place-code="sg"> Senegal
+          <option value="../geos/ri.html" data-place-code="ri"> Serbia
+          <option value="../geos/se.html" data-place-code="se"> Seychelles
+          <option value="../geos/sl.html" data-place-code="sl"> Sierra Leone
+          <option value="../geos/sn.html" data-place-code="sn"> Singapore
+          <option value="../geos/nn.html" data-place-code="nn"> Sint Maarten
+          <option value="../geos/lo.html" data-place-code="lo"> Slovakia
+          <option value="../geos/si.html" data-place-code="si"> Slovenia
+          <option value="../geos/bp.html" data-place-code="bp"> Solomon Islands
+          <option value="../geos/so.html" data-place-code="so"> Somalia
+          <option value="../geos/sf.html" data-place-code="sf"> South Africa
+          <option value="../geos/sx.html" data-place-code="sx"> South Georgia and South Sandwich Islands
+          <option value="../geos/od.html" data-place-code="od"> South Sudan
+          <option value="../geos/oo.html" data-place-code="oo"> Southern Ocean
+          <option value="../geos/sp.html" data-place-code="sp"> Spain
+          <option value="../geos/pg.html" data-place-code="pg"> Spratly Islands
+          <option value="../geos/ce.html" data-place-code="ce"> Sri Lanka
+          <option value="../geos/su.html" data-place-code="su"> Sudan
+          <option value="../geos/ns.html" data-place-code="ns"> Suriname
+          <option value="../geos/sv.html" data-place-code="sv"> Svalbard
+          <option value="../geos/sw.html" data-place-code="sw"> Sweden
+          <option value="../geos/sz.html" data-place-code="sz"> Switzerland
+          <option value="../geos/sy.html" data-place-code="sy"> Syria
+          <option value="../geos/tw.html" data-place-code="tw"> Taiwan
+          <option value="../geos/ti.html" data-place-code="ti"> Tajikistan
+          <option value="../geos/tz.html" data-place-code="tz"> Tanzania
+          <option value="../geos/th.html" data-place-code="th"> Thailand
+          <option value="../geos/tt.html" data-place-code="tt"> Timor-Leste
+          <option value="../geos/to.html" data-place-code="to"> Togo
+          <option value="../geos/tl.html" data-place-code="tl"> Tokelau
+          <option value="../geos/tn.html" data-place-code="tn"> Tonga
+          <option value="../geos/td.html" data-place-code="td"> Trinidad and Tobago
+          <option value="../geos/ts.html" data-place-code="ts"> Tunisia
+          <option value="../geos/tu.html" data-place-code="tu"> Turkey
+          <option value="../geos/tx.html" data-place-code="tx"> Turkmenistan
+          <option value="../geos/tk.html" data-place-code="tk"> Turks and Caicos Islands
+          <option value="../geos/tv.html" data-place-code="tv"> Tuvalu
+          <option value="../geos/ug.html" data-place-code="ug"> Uganda
+          <option value="../geos/up.html" data-place-code="up"> Ukraine
+          <option value="../geos/ae.html" data-place-code="ae"> United Arab Emirates
+          <option value="../geos/uk.html" data-place-code="uk"> United Kingdom
+          <option value="../geos/us.html" data-place-code="us"> United States
+          <option value="../geos/um.html" data-place-code="um"> United States Pacific Island Wildlife Refuges
+          <option value="../geos/uy.html" data-place-code="uy"> Uruguay
+          <option value="../geos/uz.html" data-place-code="uz"> Uzbekistan
+          <option value="../geos/nh.html" data-place-code="nh"> Vanuatu
+          <option value="../geos/ve.html" data-place-code="ve"> Venezuela
+          <option value="../geos/vm.html" data-place-code="vm"> Vietnam
+          <option value="../geos/vq.html" data-place-code="vq"> Virgin Islands
+          <option value="../geos/wq.html" data-place-code="wq"> Wake Island
+          <option value="../geos/wf.html" data-place-code="wf"> Wallis and Futuna
+          <option value="../geos/we.html" data-place-code="we"> West Bank
+          <option value="../geos/wi.html" data-place-code="wi"> Western Sahara
+          <option value="../geos/ym.html" data-place-code="ym"> Yemen
+          <option value="../geos/za.html" data-place-code="za"> Zambia
+          <option value="../geos/zi.html" data-place-code="zi"> Zimbabwe
+          <option value="../geos/ee.html" data-place-code="ee"> European Union
