@@ -1,7 +1,6 @@
 import urllib.request
 from bs4 import BeautifulSoup as bs
 import re
-import fileinput
 
 def get_country_codes():
 	countries = {}
@@ -56,10 +55,12 @@ for a in range(len(country_codes)):
 			break
 	issues = ' ' + issues[0].upper() + issues[1:x] + '.'
 	data[a * 7 + 4] = data[a * 7 + 4][:-1] + issues + '\n'
-
+	
 	#region
 	data[a * 7 + 5] = data[a * 7 + 5][:-1] + ' ' + soup.find('title').find(text=True).split('::')[0] + '\n'
 
 	print(country_codes[a].upper() + ' processed!')
 
 print(''.join(data))
+with open('questions.txt', 'w') as f:
+	f.write(''.join(data))
