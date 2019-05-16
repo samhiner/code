@@ -1,0 +1,100 @@
+Jones, Doug (D-AL)	Alabama	Democrat	Class II
+Shelby, Richard C. (R-AL)	Alabama	Republican	Class III
+Murkowski, Lisa (R-AK)	Alaska	Republican	Class III
+Sullivan, Dan (R-AK)	Alaska	Republican	Class II
+McSally, Martha (R-AZ)	Arizona	Republican	Class III
+Sinema, Kyrsten (D-AZ)	Arizona	Democrat	Class I
+Boozman, John (R-AR)	Arkansas	Republican	Class III
+Cotton, Tom (R-AR)	Arkansas	Republican	Class II
+Feinstein, Dianne (D-CA)	California	Democrat	Class I
+Harris, Kamala D. (D-CA)	California	Democrat	Class III
+Bennet, Michael F. (D-CO)	Colorado	Democrat	Class III
+Gardner, Cory (R-CO)	Colorado	Republican	Class II
+Blumenthal, Richard (D-CT)	Connecticut	Democrat	Class III
+Murphy, Christopher (D-CT)	Connecticut	Democrat	Class I
+Carper, Thomas R. (D-DE)	Delaware	Democrat	Class I
+Coons, Christopher A. (D-DE)	Delaware	Democrat	Class II
+Rubio, Marco (R-FL)	Florida	Republican	Class III
+Scott, Rick (R-FL)	Florida	Republican	Class I
+Isakson, Johnny (R-GA)	Georgia	Republican	Class III
+Perdue, David (R-GA)	Georgia	Republican	Class II
+Hirono, Mazie K. (D-HI)	Hawaii	Democrat	Class I
+Schatz, Brian (D-HI)	Hawaii	Democrat	Class III
+Crapo, Mike (R-ID)	Idaho	Republican	Class III
+Risch, James E. (R-ID)	Idaho	Republican	Class II
+Duckworth, Tammy (D-IL)	Illinois	Democrat	Class III
+Durbin, Richard J. (D-IL)	Illinois	Democrat	Class II
+Braun, Mike (R-IN)	Indiana	Republican	Class I
+Young, Todd (R-IN)	Indiana	Republican	Class III
+Ernst, Joni (R-IA)	Iowa	Republican	Class II
+Grassley, Chuck (R-IA)	Iowa	Republican	Class III
+Moran, Jerry (R-KS)	Kansas	Republican	Class III
+Roberts, Pat (R-KS)	Kansas	Republican	Class II
+McConnell, Mitch (R-KY)	Kentucky	Republican	Class II
+Paul, Rand (R-KY)	Kentucky	Republican	Class III
+Cassidy, Bill (R-LA)	Louisiana	Republican	Class II
+Kennedy, John (R-LA)	Louisiana	Republican	Class III
+Collins, Susan M. (R-ME)	Maine	Republican	Class II
+King, Angus S., Jr. (I-ME)	Maine	Independent	Class I
+Cardin, Benjamin L. (D-MD)	Maryland	Democrat	Class I
+Van Hollen, Chris (D-MD)	Maryland	Democrat	Class III
+Markey, Edward J. (D-MA)	Massachusetts	Democrat	Class II
+Warren, Elizabeth (D-MA)	Massachusetts	Democrat	Class I
+Peters, Gary C. (D-MI)	Michigan	Democrat	Class II
+Stabenow, Debbie (D-MI)	Michigan	Democrat	Class I
+Klobuchar, Amy (D-MN)	Minnesota	Democrat	Class I
+Smith, Tina (D-MN)	Minnesota	Democrat	Class II
+Hyde-Smith, Cindy (R-MS)	Mississippi	Republican	Class II
+Wicker, Roger F. (R-MS)	Mississippi	Republican	Class I
+Blunt, Roy (R-MO)	Missouri	Republican	Class III
+Hawley, Josh (R-MO)	Missouri	Republican	Class I
+Daines, Steve (R-MT)	Montana	Republican	Class II
+Tester, Jon (D-MT)	Montana	Democrat	Class I
+Fischer, Deb (R-NE)	Nebraska	Republican	Class I
+Sasse, Ben (R-NE)	Nebraska	Republican	Class II
+Cortez Masto, Catherine (D-NV)	Nevada	Democrat	Class III
+Rosen, Jacky (D-NV)	Nevada	Democrat	Class I
+Hassan, Margaret Wood (D-NH)	New Hampshire	Democrat	Class III
+Shaheen, Jeanne (D-NH)	New Hampshire	Democrat	Class II
+Booker, Cory A. (D-NJ)	New Jersey	Democrat	Class II
+Menendez, Robert (D-NJ)	New Jersey	Democrat	Class I
+Heinrich, Martin (D-NM)	New Mexico	Democrat	Class I
+Udall, Tom (D-NM)	New Mexico	Democrat	Class II
+Gillibrand, Kirsten E. (D-NY)	New York	Democrat	Class I
+Schumer, Charles E. (D-NY)	New York	Democrat	Class III
+Burr, Richard (R-NC)	North Carolina	Republican	Class III
+Tillis, Thom (R-NC)	North Carolina	Republican	Class II
+Cramer, Kevin (R-ND)	North Dakota	Republican	Class I
+Hoeven, John (R-ND)	North Dakota	Republican	Class III
+Brown, Sherrod (D-OH)	Ohio	Democrat	Class I
+Portman, Rob (R-OH)	Ohio	Republican	Class III
+Inhofe, James M. (R-OK)	Oklahoma	Republican	Class II
+Lankford, James (R-OK)	Oklahoma	Republican	Class III
+Merkley, Jeff (D-OR)	Oregon	Democrat	Class II
+Wyden, Ron (D-OR)	Oregon	Democrat	Class III
+Casey, Robert P., Jr. (D-PA)	Pennsylvania	Democrat	Class I
+Toomey, Patrick J. (R-PA)	Pennsylvania	Republican	Class III
+Reed, Jack (D-RI)	Rhode Island	Democrat	Class II
+Whitehouse, Sheldon (D-RI)	Rhode Island	Democrat	Class I
+Graham, Lindsey (R-SC)	South Carolina	Republican	Class II
+Scott, Tim (R-SC)	South Carolina	Republican	Class III
+Rounds, Mike (R-SD)	South Dakota	Republican	Class II
+Thune, John (R-SD)	South Dakota	Republican	Class III
+Alexander, Lamar (R-TN)	Tennessee	Republican	Class II
+Blackburn, Marsha (R-TN)	Tennessee	Republican	Class I
+Cornyn, John (R-TX)	Texas	Republican	Class II
+Cruz, Ted (R-TX)	Texas	Republican	Class I
+Lee, Mike (R-UT)	Utah	Republican	Class III
+Romney, Mitt (R-UT)	Utah	Republican	Class I
+Leahy, Patrick J. (D-VT)	Vermont	Democrat	Class III
+Sanders, Bernard (I-VT)	Vermont	Independent	Class I
+Kaine, Tim (D-VA)	Virginia	Democrat	Class I
+Warner, Mark R. (D-VA)	Virginia	Democrat	Class II
+Cantwell, Maria (D-WA)	Washington	Democrat	Class I
+Murray, Patty (D-WA)	Washington	Democrat	Class III
+Capito, Shelley Moore (R-WV)	West Virginia	Republican	Class II
+Manchin, Joe, III (D-WV)	West Virginia	Democrat	Class I
+Baldwin, Tammy (D-WI)	Wisconsin	Democrat	Class I
+Johnson, Ron (R-WI)	Wisconsin	Republican	Class III
+Barrasso, John (R-WY)	Wyoming	Republican	Class I
+Enzi, Michael B. (R-WY)	Wyoming	Republican	Class II

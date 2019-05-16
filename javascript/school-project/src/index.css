@@ -1,0 +1,34 @@
+.statePopup {
+	position: fixed;
+	height: 50%;
+	width: 50%;
+	left: 25%;
+	top: 25%;
+	background-color: white;
+	z-index: -1;
+}
+
+.statePopupWrapper {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: black;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+.background {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: white;
+	z-index: 0; /*this doesn't do anything, just documentation*/
+}
+
+.background * {
+	margin: 8px;
+}
