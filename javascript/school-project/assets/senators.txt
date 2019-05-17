@@ -54,18 +54,18 @@ Fischer, Deb (R-NE)	Nebraska	Republican	Class I
 Sasse, Ben (R-NE)	Nebraska	Republican	Class II
 Cortez Masto, Catherine (D-NV)	Nevada	Democrat	Class III
 Rosen, Jacky (D-NV)	Nevada	Democrat	Class I
-Hassan, Margaret Wood (D-NH)	New Hampshire	Democrat	Class III
-Shaheen, Jeanne (D-NH)	New Hampshire	Democrat	Class II
-Booker, Cory A. (D-NJ)	New Jersey	Democrat	Class II
-Menendez, Robert (D-NJ)	New Jersey	Democrat	Class I
-Heinrich, Martin (D-NM)	New Mexico	Democrat	Class I
-Udall, Tom (D-NM)	New Mexico	Democrat	Class II
-Gillibrand, Kirsten E. (D-NY)	New York	Democrat	Class I
-Schumer, Charles E. (D-NY)	New York	Democrat	Class III
-Burr, Richard (R-NC)	North Carolina	Republican	Class III
-Tillis, Thom (R-NC)	North Carolina	Republican	Class II
-Cramer, Kevin (R-ND)	North Dakota	Republican	Class I
-Hoeven, John (R-ND)	North Dakota	Republican	Class III
+Hassan, Margaret Wood (D-NH)	NewHampshire	Democrat	Class III
+Shaheen, Jeanne (D-NH)	NewHampshire	Democrat	Class II
+Booker, Cory A. (D-NJ)	NewJersey	Democrat	Class II
+Menendez, Robert (D-NJ)	NewJersey	Democrat	Class I
+Heinrich, Martin (D-NM)	NewMexico	Democrat	Class I
+Udall, Tom (D-NM)	NewMexico	Democrat	Class II
+Gillibrand, Kirsten E. (D-NY)	NewYork	Democrat	Class I
+Schumer, Charles E. (D-NY)	NewYork	Democrat	Class III
+Burr, Richard (R-NC)	NorthCarolina	Republican	Class III
+Tillis, Thom (R-NC)	NorthCarolina	Republican	Class II
+Cramer, Kevin (R-ND)	NorthDakota	Republican	Class I
+Hoeven, John (R-ND)	NorthDakota	Republican	Class III
 Brown, Sherrod (D-OH)	Ohio	Democrat	Class I
 Portman, Rob (R-OH)	Ohio	Republican	Class III
 Inhofe, James M. (R-OK)	Oklahoma	Republican	Class II
@@ -74,12 +74,12 @@ Merkley, Jeff (D-OR)	Oregon	Democrat	Class II
 Wyden, Ron (D-OR)	Oregon	Democrat	Class III
 Casey, Robert P., Jr. (D-PA)	Pennsylvania	Democrat	Class I
 Toomey, Patrick J. (R-PA)	Pennsylvania	Republican	Class III
-Reed, Jack (D-RI)	Rhode Island	Democrat	Class II
-Whitehouse, Sheldon (D-RI)	Rhode Island	Democrat	Class I
-Graham, Lindsey (R-SC)	South Carolina	Republican	Class II
-Scott, Tim (R-SC)	South Carolina	Republican	Class III
-Rounds, Mike (R-SD)	South Dakota	Republican	Class II
-Thune, John (R-SD)	South Dakota	Republican	Class III
+Reed, Jack (D-RI)	RhodeIsland	Democrat	Class II
+Whitehouse, Sheldon (D-RI)	RhodeIsland	Democrat	Class I
+Graham, Lindsey (R-SC)	SouthCarolina	Republican	Class II
+Scott, Tim (R-SC)	SouthCarolina	Republican	Class III
+Rounds, Mike (R-SD)	SouthDakota	Republican	Class II
+Thune, John (R-SD)	SouthDakota	Republican	Class III
 Alexander, Lamar (R-TN)	Tennessee	Republican	Class II
 Blackburn, Marsha (R-TN)	Tennessee	Republican	Class I
 Cornyn, John (R-TX)	Texas	Republican	Class II
@@ -92,8 +92,8 @@ Kaine, Tim (D-VA)	Virginia	Democrat	Class I
 Warner, Mark R. (D-VA)	Virginia	Democrat	Class II
 Cantwell, Maria (D-WA)	Washington	Democrat	Class I
 Murray, Patty (D-WA)	Washington	Democrat	Class III
-Capito, Shelley Moore (R-WV)	West Virginia	Republican	Class II
-Manchin, Joe, III (D-WV)	West Virginia	Democrat	Class I
+Capito, Shelley Moore (R-WV)	WestVirginia	Republican	Class II
+Manchin, Joe, III (D-WV)	WestVirginia	Democrat	Class I
 Baldwin, Tammy (D-WI)	Wisconsin	Democrat	Class I
 Johnson, Ron (R-WI)	Wisconsin	Republican	Class III
 Barrasso, John (R-WY)	Wyoming	Republican	Class I

@@ -20,6 +20,8 @@
 }
 
 .background {
+	text-align: center;
+
 	position: fixed;
 	height: 100%;
 	width: 100%;
@@ -29,6 +31,6 @@
 	z-index: 0; /*this doesn't do anything, just documentation*/
 }
 
-.background * {
-	margin: 8px;
+img {
+	height: calc(90% - 45px);
 }

@@ -1,0 +1,25 @@
+.tabWrapper {
+	margin: 0;
+	height: 45px;
+	width: 100%;
+	background-color: tan;
+
+	/*for vertical lines not in an element*/
+	font-size: 40px;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.tabWrapper * {
+	font-size: 40px;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+}

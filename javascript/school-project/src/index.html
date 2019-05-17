@@ -2,66 +2,70 @@
 <html>
 <head>
 	<link rel='stylesheet' type='text/css' href='index.css'>
+	<link rel='stylesheet' type='text/css' href='tabs.css'>
 	<script type='text/javascript' src='index.js'></script>
 </head>
 <body>
 
 	<div id='statePopupWrapper' class='statePopupWrapper' onclick='updatePopup()'></div>
-	<div id='statePopup' class='statePopup'>dssd</div>
+	<div id='statePopup' class='statePopup'></div>
 
 	<div class='background'>
-		<img src='../assets/usmap.png' usemap='#usmap'>
+
+		<div class='tabWrapper'><a href='index'>Home</a> | <a href='committees'>Committees</a> | <a href='differences'>Differences</a> | <a href='legislation'>Legislation</a></div>
+
+		<br><br><br><br><img src='../assets/usmap.png' usemap='#usmap'>
 		<map name='usmap'>
-			<area shape='poly' coords='98,25,238,57,233,139,89,111' title='Senate&#10;fdjldf' onclick='updatePopup()'>
-			<area shape='poly' coords='239,62,201,254,319,276,332,207,292,194,253,90' title='idaho'>
-			<area shape='poly' coords='475,210,486,99,260,65,296,198,331,204,333,193' title='montana'>
-			<area shape='poly' coords='486,95,480,181,630,189,618,103' title='ndakota'>
-			<area shape='poly' coords='619,103,632,258,740,257,707,223,719,163,758,122' title='minnesota'>
-			<area shape='poly' coords='814,283,804,188,718,166,708,222,740,246,755,284' title='wisconsin'>
-			<area shape='poly' coords='754,170,881,155,927,254,910,293,841,299,841,212' title='michigan'>
-			<area shape='poly' coords='982,275,1081,256,1120,280,1097,162,1066,168' title='new york'>
-			<area shape='poly' coords='1116,224,1099,165,1135,155,1130,220' title='vermont'>
-			<area shape='poly' coords='1132,220,1137,143,1165,206,' title='newhampshire'>
-			<area shape='poly' coords='1142,146,1158,73,1192,68,1227,129,1167,204' title='maine'>
-			<area shape='poly' coords='1116,227,1169,210,1197,237,1175,249,1156,237,1118,246' title='massachusets'>
-			<area shape='poly' coords='1159,239,1194,266,1298,266,1299,282,1196,285,1150,243' title='rhode island'>
-			<area shape='poly' coords='1150,240,1155,257,1119,274,1117,246' title='connecticut'>
-			<area shape='poly' coords='970,276,1090,257,1093,315,979,341' title='penn'>
-			<area shape='poly' coords='970,277,879,298,889,373,942,386,977,344' title='ohio'>
-			<area shape='poly' coords='890,376,877,296,825,301,826,414,886,407' title='indiana'>
-			<area shape='poly' coords='826,284,756,285,741,343,793,441,830,393' title='illinois'>
-			<area shape='poly' coords='756,285,741,343,645,342,629,263,741,260' title='iowa'>
-			<area shape='poly' coords='630,188,632,288,474,268,480,183' title='sd'>
-			<area shape='poly' coords='473,268,628,281,654,359,508,358,510,328' title='nebraska'>
-			<area shape='poly' coords='468,324,478,213,337,193,315,307' title='wyoming'>
-			<area shape='poly' coords='196,251,222,145,87,108,45,212' title='oregon'>
-			<area shape='poly' coords='1096,272,1089,320,1113,336,1113,278' title='new jersey'>
-			<area shape='poly' coords='1081,323,1091,355,1226,385,1300,383,1298,369' title='delaware'>
-			<area shape='poly' coords='1083,325,1107,398,1035,339,1005,340' title='maryland'>
-			<area shape='poly' coords='1099,411,1044,343,996,405,925,442' title='virginia'>
-			<area shape='poly' coords='1040,344,975,345,942,392,982,416' title='wv'>
-			<area shape='poly' coords='955,413,930,381,822,415,794,455,922,441' title='tucky'>
-			<area shape='poly' coords='674,464,648,346,737,344,795,456' title='misery'>
-			<area shape='poly' coords='674,448,503,445,508,357,670,363' title='kansas'>
-			<area shape='poly' coords='505,443,510,328,359,314,342,430' title='colorado'>
-			<area shape='poly' coords='344,428,232,410,259,268,320,279,319,306,358,312' title='utah'>
-			<area shape='poly' coords='135,241,113,323,206,462,196,528,133,519,33,302,47,220' title='california'>
-			<area shape='poly' coords='134,241,112,323,216,469,257,266' title='nevada'>
-			<area shape='poly' coords='216,412,190,534,321,594,342,429' title='arizona'>
-			<area shape='poly' coords='317,587,469,586,480,444,343,427' title='new mexico'>
-			<area shape='poly' coords='380,581,470,586,480,458,550,461,547,519,685,549,697,659,610,768' title='texas'>
-			<area shape='poly' coords='480,444,671,450,679,546,548,518,549,463,481,458' title='oklahoma'>
-			<area shape='poly' coords='673,466,680,561,752,563,788,461' title='arkansas,'>
-			<area shape='poly' coords='778,500,916,490,969,434,792,457' title='tennessee'>
-			<area shape='poly' coords='915,489,968,436,1101,411,1121,464,1054,502,977,477' title='nc'>
-			<area shape='poly' coords='1008,566,937,487,1009,477,1054,502' title='sc'>
-			<area shape='poly' coords='1001,607,915,611,886,496,940,487' title='georgia'>
-			<area shape='poly' coords='912,607,886,495,824,498,831,633' title='alabama'>
-			<area shape='poly' coords='826,500,830,633,748,619,775,502' title='mississippi'>
-			<area shape='poly' coords='687,564,694,659,816,671,794,619,751,621,756,562' title='louisiana'>
-			<area shape='poly' coords='850,615,997,602,1068,752,1018,753,949,639,858,633' title='new mexico'>
-			<area shape='poly' coords='489,794,485,743,414,674,299,676,300,748,344,794' title='hawaii'>
-			<area shape='poly' coords='294,775,225,717,219,614,107,590,53,767,184,731,274,790' title='alaska'>
+			<area shape='poly' coords='98,25,238,57,233,139,89,111' onclick='updatePopup("washington")'>
+			<area shape='poly' coords='239,62,201,254,319,276,332,207,292,194,253,90' onclick='updatePopup("idaho")'>
+			<area shape='poly' coords='475,210,486,99,260,65,296,198,331,204,333,193' onclick='updatePopup("montana")'>
+			<area shape='poly' coords='486,95,480,181,630,189,618,103' onclick='updatePopup("northdakota")'>
+			<area shape='poly' coords='619,103,632,258,740,257,707,223,719,163,758,122' onclick='updatePopup("minnesota")'>
+			<area shape='poly' coords='814,283,804,188,718,166,708,222,740,246,755,284' onclick='updatePopup("wisconsin")'>
+			<area shape='poly' coords='754,170,881,155,927,254,910,293,841,299,841,212' onclick='updatePopup("michigan")'>
+			<area shape='poly' coords='982,275,1081,256,1120,280,1097,162,1066,168' onclick='updatePopup("newyork")'>
+			<area shape='poly' coords='1116,224,1099,165,1135,155,1130,220' onclick='updatePopup("vermont")'>
+			<area shape='poly' coords='1132,220,1137,143,1165,206,' onclick='updatePopup("newhampshire")'>
+			<area shape='poly' coords='1142,146,1158,73,1192,68,1227,129,1167,204' onclick='updatePopup("maine")'>
+			<area shape='poly' coords='1116,227,1169,210,1197,237,1175,249,1156,237,1118,246' onclick='updatePopup("massachusetts")'>
+			<area shape='poly' coords='1159,239,1194,266,1298,266,1299,282,1196,285,1150,243' onclick='updatePopup("rhodeisland")'>
+			<area shape='poly' coords='1150,240,1155,257,1119,274,1117,246' onclick='updatePopup("connecticut")'>
+			<area shape='poly' coords='970,276,1090,257,1093,315,979,341' onclick='updatePopup("pennsylvania")'>
+			<area shape='poly' coords='970,277,879,298,889,373,942,386,977,344' onclick='updatePopup("ohio")'>
+			<area shape='poly' coords='890,376,877,296,825,301,826,414,886,407' onclick='updatePopup("indiana")'>
+			<area shape='poly' coords='826,284,756,285,741,343,793,441,830,393' onclick='updatePopup("illinois")'>
+			<area shape='poly' coords='756,285,741,343,645,342,629,263,741,260' onclick='updatePopup("iowa")'>
+			<area shape='poly' coords='630,188,632,288,474,268,480,183' onclick='updatePopup("southdakota")'>
+			<area shape='poly' coords='473,268,628,281,654,359,508,358,510,328' onclick='updatePopup("nebraska")'>
+			<area shape='poly' coords='468,324,478,213,337,193,315,307' onclick='updatePopup("wyoming")'>
+			<area shape='poly' coords='196,251,222,145,87,108,45,212' onclick='updatePopup("oregon")'>
+			<area shape='poly' coords='1096,272,1089,320,1113,336,1113,278' onclick='updatePopup("newjersey")'>
+			<area shape='poly' coords='1081,323,1091,355,1226,385,1300,383,1298,369' onclick='updatePopup("delaware")'>
+			<area shape='poly' coords='1083,325,1107,398,1035,339,1005,340' onclick='updatePopup("maryland")'>
+			<area shape='poly' coords='1099,411,1044,343,996,405,925,442' onclick='updatePopup("virginia")'>
+			<area shape='poly' coords='1040,344,975,345,942,392,982,416' onclick='updatePopup("westvirginia")'>
+			<area shape='poly' coords='955,413,930,381,822,415,794,455,922,441' onclick='updatePopup("kentucky")'>
+			<area shape='poly' coords='674,464,648,346,737,344,795,456' onclick='updatePopup("missouri")'>
+			<area shape='poly' coords='674,448,503,445,508,357,670,363' onclick='updatePopup("kansas")'>
+			<area shape='poly' coords='505,443,510,328,359,314,342,430' onclick='updatePopup("colorado")'>
+			<area shape='poly' coords='344,428,232,410,259,268,320,279,319,306,358,312' onclick='updatePopup("utah")'>
+			<area shape='poly' coords='135,241,113,323,206,462,196,528,133,519,33,302,47,220' onclick='updatePopup("california")'>
+			<area shape='poly' coords='134,241,112,323,216,469,257,266' onclick='updatePopup("nevada")'>
+			<area shape='poly' coords='216,412,190,534,321,594,342,429' onclick='updatePopup("arizona")'>
+			<area shape='poly' coords='317,587,469,586,480,444,343,427' onclick='updatePopup("newmexico")'>
+			<area shape='poly' coords='380,581,470,586,480,458,550,461,547,519,685,549,697,659,610,768' onclick='updatePopup("texas")'>
+			<area shape='poly' coords='480,444,671,450,679,546,548,518,549,463,481,458' onclick='updatePopup("oklahoma")'>
+			<area shape='poly' coords='673,466,680,561,752,563,788,461' onclick='updatePopup("arkansas,")'>
+			<area shape='poly' coords='778,500,916,490,969,434,792,457' onclick='updatePopup("tennessee")'>
+			<area shape='poly' coords='915,489,968,436,1101,411,1121,464,1054,502,977,477' onclick='updatePopup("northcarolina")'>
+			<area shape='poly' coords='1008,566,937,487,1009,477,1054,502' onclick='updatePopup("southcarolina")'>
+			<area shape='poly' coords='1001,607,915,611,886,496,940,487' onclick='updatePopup("georgia")'>
+			<area shape='poly' coords='912,607,886,495,824,498,831,633' onclick='updatePopup("alabama")'>
+			<area shape='poly' coords='826,500,830,633,748,619,775,502' onclick='updatePopup("mississippi")'>
+			<area shape='poly' coords='687,564,694,659,816,671,794,619,751,621,756,562' onclick='updatePopup("louisiana")'>
+			<area shape='poly' coords='850,615,997,602,1068,752,1018,753,949,639,858,633' onclick='updatePopup("newmexico")'>
+			<area shape='poly' coords='489,794,485,743,414,674,299,676,300,748,344,794' onclick='updatePopup("hawaii")'>
+			<area shape='poly' coords='294,775,225,717,219,614,107,590,53,767,184,731,274,790' onclick='updatePopup("alaska")'>
 		</map>
 	</div>
 </body>

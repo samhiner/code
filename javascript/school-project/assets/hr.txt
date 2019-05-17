@@ -1944,7 +1944,7 @@ Democratic Party
 
 Chris Pappas
 
-U.S. House New Hampshire District 1
+U.S. House NewHampshire District 1
 
 2019-01-03
 
@@ -1952,7 +1952,7 @@ Democratic Party
 
 Annie Kuster
 
-U.S. House New Hampshire District 2
+U.S. House NewHampshire District 2
 
 2013-01-03
 
@@ -1960,7 +1960,7 @@ Democratic Party
 
 Donald Norcross
 
-U.S. House New Jersey District 1
+U.S. House NewJersey District 1
 
 2014-11-12
 
@@ -1968,7 +1968,7 @@ Democratic Party
 
 Donald Payne, Jr.
 
-U.S. House New Jersey District 10
+U.S. House NewJersey District 10
 
 2013-01-03
 
@@ -1976,7 +1976,7 @@ Democratic Party
 
 Mikie Sherrill
 
-U.S. House New Jersey District 11
+U.S. House NewJersey District 11
 
 2019-01-03
 
@@ -1984,7 +1984,7 @@ Democratic Party
 
 Bonnie Watson Coleman
 
-U.S. House New Jersey District 12
+U.S. House NewJersey District 12
 
 2015-01-06
 
@@ -1992,7 +1992,7 @@ Democratic Party
 
 Jeff Van Drew
 
-U.S. House New Jersey District 2
+U.S. House NewJersey District 2
 
 2019-01-03
 
@@ -2000,7 +2000,7 @@ Democratic Party
 
 Andrew Kim
 
-U.S. House New Jersey District 3
+U.S. House NewJersey District 3
 
 2019-01-03
 
@@ -2008,7 +2008,7 @@ Democratic Party
 
 Chris Smith
 
-U.S. House New Jersey District 4
+U.S. House NewJersey District 4
 
 1981-01-03
 
@@ -2016,7 +2016,7 @@ Republican Party
 
 Josh Gottheimer
 
-U.S. House New Jersey District 5
+U.S. House NewJersey District 5
 
 2017-01-03
 
@@ -2024,7 +2024,7 @@ Democratic Party
 
 Frank Pallone
 
-U.S. House New Jersey District 6
+U.S. House NewJersey District 6
 
 1993-01-03
 
@@ -2032,7 +2032,7 @@ Democratic Party
 
 Tom Malinowski
 
-U.S. House New Jersey District 7
+U.S. House NewJersey District 7
 
 2019-01-03
 
@@ -2040,7 +2040,7 @@ Democratic Party
 
 Albio Sires
 
-U.S. House New Jersey District 8
+U.S. House NewJersey District 8
 
 2013
 
@@ -2048,7 +2048,7 @@ Democratic Party
 
 Bill Pascrell
 
-U.S. House New Jersey District 9
+U.S. House NewJersey District 9
 
 2013-01-03
 
@@ -2056,7 +2056,7 @@ Democratic Party
 
 Debra Haaland
 
-U.S. House New Mexico District 1
+U.S. House NewMexico District 1
 
 2019-01-03
 
@@ -2064,7 +2064,7 @@ Democratic Party
 
 Xochitl Torres Small
 
-U.S. House New Mexico District 2
+U.S. House NewMexico District 2
 
 2019-01-03
 
@@ -2072,7 +2072,7 @@ Democratic Party
 
 Ben Ray Lujan
 
-U.S. House New Mexico District 3
+U.S. House NewMexico District 3
 
 2009-01-06
 
@@ -2080,7 +2080,7 @@ Democratic Party
 
 Lee Zeldin
 
-U.S. House New York District 1
+U.S. House NewYork District 1
 
 2015-01-06
 
@@ -2088,7 +2088,7 @@ Republican Party
 
 Jerrold Nadler
 
-U.S. House New York District 10
+U.S. House NewYork District 10
 
 2013-01-03
 
@@ -2096,7 +2096,7 @@ Democratic Party
 
 Max Rose
 
-U.S. House New York District 11
+U.S. House NewYork District 11
 
 2019-01-03
 
@@ -2104,7 +2104,7 @@ Democratic Party
 
 Carolyn B. Maloney
 
-U.S. House New York District 12
+U.S. House NewYork District 12
 
 2013-01-03
 
@@ -2112,7 +2112,7 @@ Democratic Party
 
 Adriano Espaillat
 
-U.S. House New York District 13
+U.S. House NewYork District 13
 
 2017-01-03
 
@@ -2120,7 +2120,7 @@ Democratic Party
 
 Alexandria Ocasio-Cortez
 
-U.S. House New York District 14
+U.S. House NewYork District 14
 
 2019-01-03
 
@@ -2128,7 +2128,7 @@ Democratic Party
 
 José Serrano
 
-U.S. House New York District 15
+U.S. House NewYork District 15
 
 2013-01-03
 
@@ -2136,7 +2136,7 @@ Democratic Party
 
 Eliot Engel
 
-U.S. House New York District 16
+U.S. House NewYork District 16
 
 2013-01-03
 
@@ -2144,7 +2144,7 @@ Democratic Party
 
 Nita Lowey
 
-U.S. House New York District 17
+U.S. House NewYork District 17
 
 2013-01-03
 
@@ -2152,7 +2152,7 @@ Democratic Party
 
 Sean Maloney
 
-U.S. House New York District 18
+U.S. House NewYork District 18
 
 2013-01-03
 
@@ -2160,7 +2160,7 @@ Democratic Party
 
 Antonio Delgado
 
-U.S. House New York District 19
+U.S. House NewYork District 19
 
 2019-01-03
 
@@ -2168,7 +2168,7 @@ Democratic Party
 
 Peter King
 
-U.S. House New York District 2
+U.S. House NewYork District 2
 
 2013
 
@@ -2176,7 +2176,7 @@ Republican Party
 
 Paul Tonko
 
-U.S. House New York District 20
+U.S. House NewYork District 20
 
 2013-01-03
 
@@ -2184,7 +2184,7 @@ Democratic Party
 
 Elise Stefanik
 
-U.S. House New York District 21
+U.S. House NewYork District 21
 
 2015-01-06
 
@@ -2192,7 +2192,7 @@ Republican Party
 
 Anthony Brindisi
 
-U.S. House New York District 22
+U.S. House NewYork District 22
 
 2019-01-03
 
@@ -2200,7 +2200,7 @@ Democratic Party
 
 Tom Reed
 
-U.S. House New York District 23
+U.S. House NewYork District 23
 
 2013-01-03
 
@@ -2208,7 +2208,7 @@ Republican Party
 
 John Katko
 
-U.S. House New York District 24
+U.S. House NewYork District 24
 
 2015-01-06
 
@@ -2216,7 +2216,7 @@ Republican Party
 
 Joseph Morelle
 
-U.S. House New York District 25
+U.S. House NewYork District 25
 
 2018-11-13
 
@@ -2224,7 +2224,7 @@ Democratic Party
 
 Brian Higgins
 
-U.S. House New York District 26
+U.S. House NewYork District 26
 
 2013-01-03
 
@@ -2232,7 +2232,7 @@ Democratic Party
 
 Chris Collins
 
-U.S. House New York District 27
+U.S. House NewYork District 27
 
 2013-01-03
 
@@ -2240,7 +2240,7 @@ Republican Party
 
 Tom Suozzi
 
-U.S. House New York District 3
+U.S. House NewYork District 3
 
 2017-01-03
 
@@ -2248,7 +2248,7 @@ Democratic Party
 
 Kathleen Rice
 
-U.S. House New York District 4
+U.S. House NewYork District 4
 
 2015-01-06
 
@@ -2256,7 +2256,7 @@ Democratic Party
 
 Gregory W. Meeks
 
-U.S. House New York District 5
+U.S. House NewYork District 5
 
 2013-01-03
 
@@ -2264,7 +2264,7 @@ Democratic Party
 
 Grace Meng
 
-U.S. House New York District 6
+U.S. House NewYork District 6
 
 2013-01-03
 
@@ -2272,7 +2272,7 @@ Democratic Party
 
 Nydia Velazquez
 
-U.S. House New York District 7
+U.S. House NewYork District 7
 
 2013-01-03
 
@@ -2280,7 +2280,7 @@ Democratic Party
 
 Hakeem Jeffries
 
-U.S. House New York District 8
+U.S. House NewYork District 8
 
 2013-01-03
 
@@ -2288,7 +2288,7 @@ Democratic Party
 
 Yvette D. Clarke
 
-U.S. House New York District 9
+U.S. House NewYork District 9
 
 2013
 
@@ -2296,7 +2296,7 @@ Democratic Party
 
 G.K. Butterfield
 
-U.S. House North Carolina District 1
+U.S. House NorthCarolina District 1
 
 2004-07-20
 
@@ -2304,7 +2304,7 @@ Democratic Party
 
 Patrick T. McHenry
 
-U.S. House North Carolina District 10
+U.S. House NorthCarolina District 10
 
 2005-01-04
 
@@ -2312,7 +2312,7 @@ Republican Party
 
 Mark Meadows
 
-U.S. House North Carolina District 11
+U.S. House NorthCarolina District 11
 
 2013-01-03
 
@@ -2320,7 +2320,7 @@ Republican Party
 
 Alma Adams
 
-U.S. House North Carolina District 12
+U.S. House NorthCarolina District 12
 
 2014-11-12
 
@@ -2328,7 +2328,7 @@ Democratic Party
 
 Ted Budd
 
-U.S. House North Carolina District 13
+U.S. House NorthCarolina District 13
 
 2017-01-03
 
@@ -2336,7 +2336,7 @@ Republican Party
 
 George E.B. Holding
 
-U.S. House North Carolina District 2
+U.S. House NorthCarolina District 2
 
 2013-01-03
 
@@ -2344,7 +2344,7 @@ Republican Party
 
 David Price
 
-U.S. House North Carolina District 4
+U.S. House NorthCarolina District 4
 
 1997-01-07
 
@@ -2352,7 +2352,7 @@ Democratic Party
 
 Virginia Foxx
 
-U.S. House North Carolina District 5
+U.S. House NorthCarolina District 5
 
 2005-01-04
 
@@ -2360,7 +2360,7 @@ Republican Party
 
 Mark Walker
 
-U.S. House North Carolina District 6
+U.S. House NorthCarolina District 6
 
 2015-01-06
 
@@ -2368,7 +2368,7 @@ Republican Party
 
 David Rouzer
 
-U.S. House North Carolina District 7
+U.S. House NorthCarolina District 7
 
 2015-01-06
 
@@ -2376,7 +2376,7 @@ Republican Party
 
 Richard Hudson
 
-U.S. House North Carolina District 8
+U.S. House NorthCarolina District 8
 
 2013-01-03
 
@@ -2384,7 +2384,7 @@ Republican Party
 
 Kelly Armstrong
 
-U.S. House North Dakota At-large District
+U.S. House NorthDakota At-large District
 
 2019-01-03
 
@@ -2750,7 +2750,7 @@ U.S. House Puerto Rico At-large District
 
 David N. Cicilline
 
-U.S. House Rhode Island District 1
+U.S. House RhodeIsland District 1
 
 2011-01-05
 
@@ -2758,7 +2758,7 @@ Democratic Party
 
 Jim Langevin
 
-U.S. House Rhode Island District 2
+U.S. House RhodeIsland District 2
 
 2001
 
@@ -2766,7 +2766,7 @@ Democratic Party
 
 Joe Cunningham
 
-U.S. House South Carolina District 1
+U.S. House SouthCarolina District 1
 
 2019-01-03
 
@@ -2774,7 +2774,7 @@ Democratic Party
 
 Joe Wilson
 
-U.S. House South Carolina District 2
+U.S. House SouthCarolina District 2
 
 2001
 
@@ -2782,7 +2782,7 @@ Republican Party
 
 Jeff Duncan
 
-U.S. House South Carolina District 3
+U.S. House SouthCarolina District 3
 
 2011-01-05
 
@@ -2790,7 +2790,7 @@ Republican Party
 
 William Timmons
 
-U.S. House South Carolina District 4
+U.S. House SouthCarolina District 4
 
 2019-01-03
 
@@ -2798,7 +2798,7 @@ Republican Party
 
 Ralph Norman
 
-U.S. House South Carolina District 5
+U.S. House SouthCarolina District 5
 
 2017-06-26
 
@@ -2806,7 +2806,7 @@ Republican Party
 
 James Clyburn
 
-U.S. House South Carolina District 6
+U.S. House SouthCarolina District 6
 
 1993
 
@@ -2814,7 +2814,7 @@ Democratic Party
 
 Tom Rice
 
-U.S. House South Carolina District 7
+U.S. House SouthCarolina District 7
 
 2013-01-03
 
@@ -2822,7 +2822,7 @@ Republican Party
 
 Dusty Johnson
 
-U.S. House South Dakota At-large District
+U.S. House SouthDakota At-large District
 
 2019-01-03
 
@@ -3406,7 +3406,7 @@ Democratic Party
 
 David McKinley
 
-U.S. House West Virginia District 1
+U.S. House WestVirginia District 1
 
 2011-01-05
 
@@ -3414,7 +3414,7 @@ Republican Party
 
 Alexander Mooney
 
-U.S. House West Virginia District 2
+U.S. House WestVirginia District 2
 
 2015-01-06
 
@@ -3422,7 +3422,7 @@ Republican Party
 
 Carol Miller
 
-U.S. House West Virginia District 3
+U.S. House WestVirginia District 3
 
 2019-01-03
 
