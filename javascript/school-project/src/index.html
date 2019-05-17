@@ -12,7 +12,7 @@
 
 	<div class='background'>
 
-		<div class='tabWrapper'><a href='index'>Home</a> | <a href='committees'>Committees</a> | <a href='differences'>Differences</a> | <a href='legislation'>Legislation</a></div>
+		<div class='tabWrapper'><a href='index.html'>Home</a> | <a href='committees.html'>Committees</a> | <a href='differences.html'>Differences</a> | <a href='legislation.html'>Legislation</a></div>
 
 		<br><br><br><br><img src='../assets/usmap.png' usemap='#usmap'>
 		<map name='usmap'>
@@ -55,7 +55,7 @@
 			<area shape='poly' coords='317,587,469,586,480,444,343,427' onclick='updatePopup("newmexico")'>
 			<area shape='poly' coords='380,581,470,586,480,458,550,461,547,519,685,549,697,659,610,768' onclick='updatePopup("texas")'>
 			<area shape='poly' coords='480,444,671,450,679,546,548,518,549,463,481,458' onclick='updatePopup("oklahoma")'>
-			<area shape='poly' coords='673,466,680,561,752,563,788,461' onclick='updatePopup("arkansas,")'>
+			<area shape='poly' coords='673,466,680,561,752,563,788,461' onclick='updatePopup("arkansas")'>
 			<area shape='poly' coords='778,500,916,490,969,434,792,457' onclick='updatePopup("tennessee")'>
 			<area shape='poly' coords='915,489,968,436,1101,411,1121,464,1054,502,977,477' onclick='updatePopup("northcarolina")'>
 			<area shape='poly' coords='1008,566,937,487,1009,477,1054,502' onclick='updatePopup("southcarolina")'>
@@ -68,5 +68,13 @@
 			<area shape='poly' coords='294,775,225,717,219,614,107,590,53,767,184,731,274,790' onclick='updatePopup("alaska")'>
 		</map>
 	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="../assets/imagemapresizer.min.js"></script>
+	<script type="text/javascript">
+
+		$('map').imageMapResize();
+
+	</script>
 </body>
 </html>
