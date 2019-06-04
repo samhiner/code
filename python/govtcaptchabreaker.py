@@ -26,3 +26,5 @@ fill_field('mail', EMAIL)
 fill_field('captcha_response', solution)
 
 driver.find_element_by_id('edit-submit--2').click()
+
+driver.quit()
