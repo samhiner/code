@@ -2,6 +2,16 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <style>
+	body {
+		font-family: sans-serif;
+	}
+	ul {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	table {
+		width: 100%;
+	}
 	.cardsHolder {
 		text-align: center;
 	}
@@ -10,7 +20,6 @@
 		color: white;
 		text-align: center;
 		font-size: 10vh;
-		font-family: sans-serif;
 		width: 90%;
 		margin-left: 5%;
 		margin-top: 5%;
@@ -28,6 +37,9 @@
 		margin-bottom: 5%;
 		margin-right: 5%;
 		margin-left: 5%;
+
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 </style>
 </head>
@@ -37,7 +49,7 @@
 
 <!--invisible elements-->
 
-<div class='card' style='display:none;' onclick='popup(this)'>
+<div class='card' style='display:none;'>
 	Grace Dai
 </div>
 <div class='details' style='display:none;'>
@@ -69,7 +81,8 @@ function addStudentData(data) {
 
 		//create the expandable details box for the card
 		var details = document.getElementsByClassName('details')[0].cloneNode(true);
-		details.innerText = name;
+		var textColumns = formatData(window.studentData[name])
+		details.innerHTML = '<table><tbody><tr><td>' + textColumns[0] + '</td><td>' + textColumns[1] + '</td></tr></tbody></table>';
 		details.style.display = 'block';
 		document.getElementById('cardsHolder').appendChild(details);
 
@@ -87,8 +100,48 @@ function addStudentData(data) {
 	}
 }
 
-function popup(element) {
-	window.studentData[element.innerText]
+function formatData(data) {
+	var column1 = '<br>'
+
+	//make this support multiple roles?
+	if (data['Role'] != undefined) {
+		column1 += '<b>Role: </b>' + data['Role'][0] + '<br><br>'
+	}
+
+	if (data['Committees'] != undefined) {
+		column1 += '<b>Committees</b><ul>';
+		for (x in data['Committees']) {
+			column1 += '<li>' + data['Committees'][x] + '</li>';
+		}
+		column1 += '</ul><br>';
+	}
+	if (data['Votes'] != undefined) {
+		column1 += '<b>Votes</b><ul>';
+		for (x in data['Votes']) {
+			column1 += '<li>Voted "' + data['Votes'][x][2] + '" on <a href="' + data['Votes'][x][1] + '">' + data['Votes'][x][0] + '</a></li>';
+		}
+		column1 += '</ul><br>';
+	}
+
+	var column2 = '<br>';
+
+	if (data['Statements of Accomplishment'] != undefined) {
+		column2 += '<b>Projects Led</b><ul>';
+		otherProjects = '<b>Other Projects</b><ul>'
+		for (x in data['Statements of Accomplishment']) {
+			if (data['Statements of Accomplishment'][x][2] == 'YES') {
+				column2 += '<li><a href="' + data['Statements of Accomplishment'][x][1] + '">' + data['Statements of Accomplishment'][x][0] + '</a></li>';
+			//if you weren't the project leader, the project is saved to another string for Other Projects which is added at the end
+			} else {
+				otherProjects += '<li><a href="' + data['Statements of Accomplishment'][x][1] + '">' + data['Statements of Accomplishment'][x][0] + '</a></li>';
+			}
+		}
+		column2 += '</ul><br>';
+		column2 += otherProjects + '</ul><br>';
+	}
+
+
+	return [column1, column2];
 
 }
 
