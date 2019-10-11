@@ -1,0 +1,97 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<style>
+	.cardsHolder {
+		text-align: center;
+	}
+	.card {
+		background-color: rgb(45, 81, 141);
+		color: white;
+		text-align: center;
+		font-size: 10vh;
+		font-family: sans-serif;
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 5%;
+		margin-bottom: 0;
+		cursor: pointer;
+
+		white-space: nowrap;
+	}
+	.details {
+		transition: max-height 0.2s ease-out;
+		max-height: 0;
+		background-color: lightgrey;
+		overflow: hidden;
+
+		margin-bottom: 5%;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+</style>
+</head>
+<body>
+
+<div id='cardsHolder'>Loading...</div>
+
+<!--invisible elements-->
+
+<div class='card' style='display:none;' onclick='popup(this)'>
+	Grace Dai
+</div>
+<div class='details' style='display:none;'>
+	details
+</div>
+
+<script>
+
+$.ajax({
+		url: 'https://script.google.com/macros/s/AKfycbyvRQvrxPZVDK0TSx18I0IwLdIT8VTEJKHcGE_fLJ1chblNn9w/exec',
+		dataType: 'jsonp'
+	});
+
+function addStudentData(data) {
+	document.getElementById('cardsHolder').innerText = '';
+
+	window.studentData = JSON.parse(data);
+
+	console.log('Raw Student Data:')
+	console.log(window.studentData)
+	var card;
+
+	for (var name in window.studentData) {
+		//create new card with a name on it
+		card = document.getElementsByClassName('card')[0].cloneNode(true);
+		card.innerText = name;
+		card.style.display = 'block';
+		document.getElementById('cardsHolder').appendChild(card);
+
+		//create the expandable details box for the card
+		var details = document.getElementsByClassName('details')[0].cloneNode(true);
+		details.innerText = name;
+		details.style.display = 'block';
+		document.getElementById('cardsHolder').appendChild(details);
+
+		//make the details box expand out on click
+		//borrowed from https://www.w3schools.com/howto/howto_js_collapsible.asp
+		card.addEventListener('click', function() {
+			var details = this.nextElementSibling
+			if (details.style.maxHeight){
+				details.style.maxHeight = null;
+			} else {
+				details.style.maxHeight = details.scrollHeight + "px";
+			} 
+		});
+		
+	}
+}
+
+function popup(element) {
+	window.studentData[element.innerText]
+
+}
+
+</script>
+</body>
+</html>
