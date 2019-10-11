@@ -12,6 +12,11 @@
 	table {
 		width: 100%;
 	}
+	#searchBar {
+		width: 90%;
+		margin-left: 5%;
+		font-size: 5vh;
+	}
 	.cardsHolder {
 		text-align: center;
 	}
@@ -45,16 +50,14 @@
 </head>
 <body>
 
+<input placeholder='Search...' id='searchBar' oninput='filterCards()'>
+
 <div id='cardsHolder'>Loading...</div>
 
 <!--invisible elements-->
 
-<div class='card' style='display:none;'>
-	Grace Dai
-</div>
-<div class='details' style='display:none;'>
-	details
-</div>
+<div class='card' style='display:none;'></div>
+<div class='details' style='display:none;'></div>
 
 <script>
 
@@ -90,11 +93,16 @@ function addStudentData(data) {
 		//borrowed from https://www.w3schools.com/howto/howto_js_collapsible.asp
 		card.addEventListener('click', function() {
 			var details = this.nextElementSibling
+			//make div disappear once it is done sliding up after 0.2s
 			if (details.style.maxHeight){
 				details.style.maxHeight = null;
+				setTimeout(function() {
+					details.style.display = 'none';
+				}, 200);
 			} else {
+				details.style.display = 'block';
 				details.style.maxHeight = details.scrollHeight + "px";
-			} 
+			}
 		});
 		
 	}
@@ -140,9 +148,26 @@ function formatData(data) {
 		column2 += otherProjects + '</ul><br>';
 	}
 
-
 	return [column1, column2];
 
+}
+
+function filterCards() {
+	var query = document.getElementById('searchBar').value;
+	var cards = document.getElementsByClassName('card');
+
+	for (var x = 0; x < cards.length; x++) {
+		console.log(query)
+		console.log(cards[x].innerText)
+		//the default card never is not hidden because its innerText is empty
+		//if the searchbar is empty, everything shows up because any string includes ''
+		if (cards[x].innerText.toLowerCase().includes(query.toLowerCase())) {
+			cards[x].style.display = 'block';
+		} else {
+			console.log(cards[x])
+			cards[x].style.display = 'none';
+		}
+	}
 }
 
 </script>
